@@ -1,0 +1,2 @@
+/usr/bin/aarch64-linux-gnu-ar qc ../../lib/libgmock.a  CMakeFiles/gmock.dir/src/gmock-all.cc.o
+/usr/bin/aarch64-linux-gnu-ranlib ../../lib/libgmock.a

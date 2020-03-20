@@ -1,0 +1,7 @@
+
+adb push lib/ /usr/lib
+adb push bin/ /usr/bin
+adb shell
+mkdir -p /apollo/cyber/conf/
+adb push  cyber.pb.conf /apollo/cyber/conf/
+

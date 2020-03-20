@@ -1,0 +1,123 @@
+diff -upaNr cyber/examples/CMakeLists.txt ../cyber/cyber/examples/CMakeLists.txt
+--- cyber/examples/CMakeLists.txt	1970-01-01 08:00:00.000000000 +0800
++++ ../cyber/cyber/examples/CMakeLists.txt	2019-05-08 09:26:40.414297017 +0800
+@@ -0,0 +1,30 @@
++project(cyber_example)
++
++include_directories(${CMAKE_CURRENT_BINARY_DIR})
++include_directories(${cyber_SOURCE_DIR})
++include_directories(${cyber_BINARY_DIR})
++add_compile_options(-Og)
++PROTOBUF_GENERATE_CPP(PROTO_SRCS PROTO_HDRS proto/examples.proto)
++
++add_executable(talker talker.cc ${PROTO_SRCS} )
++add_executable(listener listener.cc ${PROTO_SRCS})
++add_executable(paramserver paramserver.cc)
++add_executable(service service.cc ${PROTO_SRCS})
++add_executable(record record.cc)
++
++target_link_libraries(talker cyber gflags glog)
++target_link_libraries(listener cyber gflags glog)
++target_link_libraries(paramserver cyber gflags glog)
++target_link_libraries(service cyber gflags glog)
++target_link_libraries(record cyber cyber_proto gflags glog)
++
++add_library(common_component_example SHARED common_component_example/common_component_example.cc ${PROTO_SRCS})
++add_library(timer_component_example SHARED timer_component_example/timer_component_example.cc ${PROTO_SRCS})
++target_link_libraries(common_component_example cyber)
++target_link_libraries(timer_component_example cyber)
++
++file(GLOB EXAMPLE_FILES "*/*.dag" "*/*.launch")
++install(TARGETS common_component_example timer_component_example talker listener paramserver service record
++		LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}/cyber/examples
++		RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}/cyber/examples)
++install(FILES ${EXAMPLE_FILES} DESTINATION ${CMAKE_INSTALL_LIBDIR}/cyber/examples)
+diff -upaNr cyber/proto/CMakeLists.txt ../cyber/cyber/proto/CMakeLists.txt
+--- cyber/proto/CMakeLists.txt	1970-01-01 08:00:00.000000000 +0800
++++ ../cyber/cyber/proto/CMakeLists.txt	2019-04-26 17:38:27.284664375 +0800
+@@ -0,0 +1,9 @@
++project(cyber_proto)
++
++file(GLOB CYBER_PROTO_SRCS *.proto)
++PROTOBUF_GENERATE_CPP(	PROTO_SRCS PROTO_HDRS ${CYBER_PROTO_SRCS})
++
++include_directories(${cyber_BINARY_DIR})
++add_library(cyber_proto SHARED ${PROTO_SRCS} ${PROTO_HDRS})
++target_link_libraries(cyber_proto ${Protobuf_LIBRARIES})
++install(TARGETS cyber_proto LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR})
+diff -upaNr cyber/py_wrapper/CMakeLists.txt ../cyber/cyber/py_wrapper/CMakeLists.txt
+--- cyber/py_wrapper/CMakeLists.txt	1970-01-01 08:00:00.000000000 +0800
++++ ../cyber/cyber/py_wrapper/CMakeLists.txt	2019-04-26 17:38:39.583214878 +0800
+@@ -0,0 +1,44 @@
++project(cyber_py_wrapper)
++
++#include cyber directories
++include_directories(${cyber_BINARY_DIR})
++include_directories(${cyber_SOURCE_DIR})
++include_directories(${cyber_BINARY_DIR})
++
++#build _cyber_init.so
++add_library(_cyber_init SHARED "cyber_init_wrap.cc")
++target_link_libraries(_cyber_init cyber)
++install(CODE "file(RENAME ${cyber_BINARY_DIR}/lib_cyber_init.so ${cyber_BINARY_DIR}/_cyber_init.so)")
++install(FILES "${cyber_BINARY_DIR}/_cyber_init.so" DESTINATION ${CMAKE_INSTALL_LIBDIR}/cyber/py_wrapper)
++
++#build _cyber_node.so
++add_library(_cyber_node SHARED "cyber_node_wrap.cc")
++target_link_libraries(_cyber_node cyber)
++install(CODE "file(RENAME ${cyber_BINARY_DIR}/lib_cyber_node.so ${cyber_BINARY_DIR}/_cyber_node.so)")
++install(FILES "${cyber_BINARY_DIR}/_cyber_node.so" DESTINATION ${CMAKE_INSTALL_LIBDIR}/cyber/py_wrapper)
++
++#build _cyber_record.so
++add_library(_cyber_record SHARED "cyber_record_wrap.cc")
++target_link_libraries(_cyber_record cyber)
++install(CODE "file(RENAME ${cyber_BINARY_DIR}/lib_cyber_record.so ${cyber_BINARY_DIR}/_cyber_record.so)")
++install(FILES "${cyber_BINARY_DIR}/_cyber_record.so" DESTINATION ${CMAKE_INSTALL_LIBDIR}/cyber/py_wrapper)
++
++#build _cyber_time.so
++add_library(_cyber_time SHARED "cyber_record_wrap.cc")
++target_link_libraries(_cyber_time cyber)
++install(CODE "file(RENAME ${cyber_BINARY_DIR}/lib_cyber_time.so ${cyber_BINARY_DIR}/_cyber_time.so)")
++install(FILES "${cyber_BINARY_DIR}/_cyber_time.so" DESTINATION ${CMAKE_INSTALL_LIBDIR}/cyber/py_wrapper)
++
++#build _cyber_timer.so
++add_library(_cyber_timer SHARED "cyber_record_wrap.cc")
++target_link_libraries(_cyber_timer cyber)
++install(CODE "file(RENAME ${cyber_BINARY_DIR}/lib_cyber_timer.so ${cyber_BINARY_DIR}/_cyber_timer.so)")
++install(FILES "${cyber_BINARY_DIR}/_cyber_timer.so" DESTINATION ${CMAKE_INSTALL_LIBDIR}/cyber/py_wrapper)
++
++#build _cyber_topology_manager.so
++find_package(Python2 COMPONENTS Development)
++include_directories(${Python2_INCLUDE_DIRS})
++add_library(_cyber_topology_manager SHARED "cyber_topology_manager_wrap.cc")
++target_link_libraries(_cyber_topology_manager cyber ${Python2_LIBRARIES})
++install(CODE "file(RENAME ${cyber_BINARY_DIR}/lib_cyber_topology_manager.so ${cyber_BINARY_DIR}/_cyber_topology_manager.so)")
++install(FILES "${cyber_BINARY_DIR}/_cyber_topology_manager.so" DESTINATION ${CMAKE_INSTALL_LIBDIR}/cyber/py_wrapper)
+diff -upaNr cyber/tools/CMakeLists.txt ../cyber/cyber/tools/CMakeLists.txt
+--- cyber/tools/CMakeLists.txt	1970-01-01 08:00:00.000000000 +0800
++++ ../cyber/cyber/tools/CMakeLists.txt	2019-04-26 17:38:52.782105474 +0800
+@@ -0,0 +1,24 @@
++project(cyber_tools)
++
++#include cyber directories
++include_directories(${cyber_BINARY_DIR})
++include_directories(${cyber_SOURCE_DIR})
++include_directories(${cyber_BINARY_DIR})
++
++#install cyber_launch
++install(DIRECTORY cyber_launch DESTINATION ${CMAKE_INSTALL_BINDIR}/cyber/tools)
++
++#build cyber_monitor
++file(GLOB CYBER_MONITOR_SRCS "${PROJECT_SOURCE_DIR}/cyber_monitor/*.cc")
++add_executable(cyber_monitor ${CYBER_MONITOR_SRCS})
++target_link_libraries(cyber_monitor cyber gflags glog pthread ncurses)
++install(TARGETS cyber_monitor RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}/cyber/tools/cyber_monitor)
++
++#build cyber_recorder
++file(GLOB CYBER_RECORDER_SRCS "${PROJECT_SOURCE_DIR}/cyber_recorder/*.cc" "${PROJECT_SOURCE_DIR}/cyber_recorder/player/*.cc")
++add_executable(cyber_recorder ${CYBER_RECORDER_SRCS})
++target_link_libraries(cyber_recorder cyber gflags glog)
++install(TARGETS cyber_recorder RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}/cyber/tools/cyber_recorder)
++
++#install cyber_tools_auto_complete.bash
++install(FILES cyber_tools_auto_complete.bash DESTINATION ${CMAKE_INSTALL_BINDIR}/cyber/tools)
