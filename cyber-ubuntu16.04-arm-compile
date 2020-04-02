@@ -1,0 +1,183 @@
+
+cmake version >= 3.12
+
+sudo apt install libasio-dev libtinyxml2-dev
+apt-get install libncurses5-dev
+
+安装automake 工具,   用下面的命令安装好就可以了。
+sudo apt-get install autoconf automake libtool
+
+
+####compile protobuf
+安装protobuffer: 
+https://github.com/protocolbuffers/protobuf/releases
+下载 3.6.1版本
+解压
+./configure CC=/usr/bin/aarch64-linux-gnu-gcc CXX=/usr/bin/aarch64-linux-gnu-g++ --host=aarch64-linux-gnu --prefix=/protobuf-3.6.1
+make -j8 && make check && sudo make install DESTDIR=/home/allen/aarch64-depends
+
+
+####compile gflags
+git clone https://github.com/gflags/gflags.git
+cd gflags && mkdir build && cd build
+export CROSS_COMPILE=aarch64-linux-gnu-
+
+copy aarch64_toolchainfile.cmake to gflags directory and add below line to CMakeLists.txt:
+include(../aarch64_toolchainfile.cmake)
+
+cmake .. -DCMAKE_INSTALL_PREFIX=/gflags
+make -j8 && sudo make install DESTDIR=/home/allen/aarch64-depends
+
+
+####compile glog
+git clone https://github.com/google/glog.git
+cd glog
+mkdir build && cd build
+export CROSS_COMPILE=aarch64-linux-gnu-
+
+copy aarch64_toolchainfile.cmake to gflags directory and add below line to CMakeLists.txt:
+include(../aarch64_toolchainfile.cmake)
+
+cmake .. -DCMAKE_INSTALL_PREFIX=/glog
+make -j8 && sudo make install DESTDIR=/home/allen/aarch64-depends
+
+####compile poco
+git clone https://github.com/pocoproject/poco.git
+cd poco
+mkdir build && cd build
+export CROSS_COMPILE=aarch64-linux-gnu-
+
+copy aarch64_toolchainfile.cmake to gflags directory and add below line to CMakeLists.txt:
+include(../aarch64_toolchainfile.cmake)
+
+cmake .. -DCMAKE_INSTALL_PREFIX=/poco
+make -j8 && sudo make install DESTDIR=/home/allen/aarch64-depends
+
+
+####compile Foonathan memory
+$ git clone https://github.com/eProsima/foonathan_memory_vendor.git
+$ cd foonathan_memory_vendor
+$ mkdir build && cd build
+export CROSS_COMPILE=aarch64-linux-gnu-
+
+copy aarch64_toolchainfile.cmake to gflags directory and add below line to CMakeLists.txt:
+include(../aarch64_toolchainfile.cmake)
+
+cmake .. -DCMAKE_INSTALL_PREFIX=/foonathan_memory_vendor
+make -j8 && sudo make install DESTDIR=/home/allen/aarch64-depends
+
+
+####compile Fast-CDR
+https://github.com/eProsima/Fast-CDR/releases
+下载 1.0.7版本
+$ mkdir Fast-CDR/build && cd Fast-CDR/build
+$ cmake ..
+$ cmake --build . --target install
+
+
+####compile Fast-RTPS
+https://github.com/eProsima/Fast-RTPS/releases
+下载1.5.0版本
+$ mkdir Fast-RTPS/build && cd Fast-RTPS/build
+$ cmake ..
+$ cmake --build . --target install
+
+编译可能遇到fastRTPS报错，std::function相关。。。打开对应文件#include <functional>
+
+FastCDR与fastRTPS需要打patch才可以。patch文件:
+https://github.com/ApolloAuto/apollo/issues/7240
+
+也可以直接用该仓库中cyberRT-dependency目录中的三方库，其中fast-CDR和fast-RTPS已经打过补丁。
+
+
+issue with compile fastRTPS, it depends on: fastcdr, asio(depend on boost),  tinyxml2
+fastcdr aarch64 version has been compiled.
+so it needs to compile aarch64 version boost asio and tinyxml2.
+
+#### compile boost
+download boost_1.68.0;
+unzip;
+./bootstrap.sh
+change project-config.jam:
+
+
+if ! gcc in [ feature.values <toolset> ]
+{
+    using gcc : arm : aarch64-linux-gnu-gcc ;
+}
+......
+option.set prefix : /usr/bin ;
+option.set exec-prefix : /usr/bin ;
+option.set libdir : /usr/lib/aarch64-linux-gnu ;
+option.set includedir : /usr/aarch64-linux-gnu/include ;
+
+./bjam
+./bjam install --prefix=/home/allen/aarch64-depends/boost
+
+
+sudo cp -rf /home/allen/aarch64-depends/boost/* /usr/include/boost/
+
+####compile asio
+download asio-1.12.2
+unzip
+cd asio-1.12.2
+./configure CC=/usr/bin/aarch64-linux-gnu-gcc CXX=/usr/bin/aarch64-linux-gnu-g++ --host=aarch64-linux-gnu --prefix=/asio
+make -j8 && sudo make install DESTDIR=/home/allen/aarch64-depends
+
+####compile tinyxml2
+github download tinyxml2
+copy aarch64_toolchainfile.cmake to tinyxml2 directory and add below line to CMakeLists.txt:
+include(../aarch64_toolchainfile.cmake)
+
+cmake .. -DCMAKE_INSTALL_PREFIX=/tinyxml2
+make -j8 && sudo make install DESTDIR=/home/allen/aarch64-depends
+
+
+
+compile fastrtps only need asio_include_dir
+
+
+####compile Python2.7.12
+https://www.python.org/ftp/python/2.7.12/
+
+./configure CC=/usr/bin/aarch64-linux-gnu-gcc CXX=/usr/bin/aarch64-linux-gnu-g++ --host=aarch64-linux-gnu --prefix=/python2.7.12 --build=aarch64  --disable-ipv6  ac_cv_file__dev_ptmx="yes" ac_cv_file__dev_ptc="no"
+
+make -j8 && sudo make install DESTDIR=/home/allen/aarch64-depends
+
+####compile libuuid
+https://sourceforge.net/projects/libuuid/
+./configure CC=/usr/bin/aarch64-linux-gnu-gcc CXX=/usr/bin/aarch64-linux-gnu-g++ --host=aarch64-linux-gnu --prefix=/uuid
+make -j8 && sudo make install DESTDIR=~/aarch64-depends/
+
+
+####compile ncurses5.9
+http://ftp.gnu.org/pub/gnu/ncurses/
+
+./configure CC=/usr/bin/aarch64-linux-gnu-gcc CXX=/usr/bin/aarch64-linux-gnu-g++ --host=arm-linux --with-shared  --prefix=/ncurses-5.9
+
+compile error resolve:
+cd ncurses/include
+sudo vim curses.tail
+find mouse_trafo in line 104, delete the comment of this line.
+
+make -j8 && sudo make install DESTDIR=/home/allen/aarch64-depends
+
+###############
+./configure --help can show how to use ./configure command
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
