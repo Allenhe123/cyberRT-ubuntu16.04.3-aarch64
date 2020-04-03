@@ -1,0 +1,234 @@
+http/server/mime_types.o: http/server/mime_types.cpp \
+ /usr/aarch64-linux-gnu/include/stdc-predef.h http/server/mime_types.hpp \
+ /usr/aarch64-linux-gnu/include/c++/5/string \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/c++config.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/os_defines.h \
+ /usr/aarch64-linux-gnu/include/features.h \
+ /usr/aarch64-linux-gnu/include/sys/cdefs.h \
+ /usr/aarch64-linux-gnu/include/bits/wordsize.h \
+ /usr/aarch64-linux-gnu/include/gnu/stubs.h \
+ /usr/aarch64-linux-gnu/include/gnu/stubs-lp64.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/cpu_defines.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stringfwd.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/memoryfwd.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/char_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_algobase.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/functexcept.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/exception_defines.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/cpp_type_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/5/ext/type_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/5/ext/numeric_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_pair.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/move.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/concept_check.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_iterator_base_types.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_iterator_base_funcs.h \
+ /usr/aarch64-linux-gnu/include/c++/5/debug/debug.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_iterator.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/ptr_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/predefined_ops.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/postypes.h \
+ /usr/aarch64-linux-gnu/include/c++/5/cwchar \
+ /usr/aarch64-linux-gnu/include/wchar.h \
+ /usr/aarch64-linux-gnu/include/stdio.h \
+ /usr/lib/gcc-cross/aarch64-linux-gnu/5/include/stdarg.h \
+ /usr/aarch64-linux-gnu/include/bits/wchar.h \
+ /usr/lib/gcc-cross/aarch64-linux-gnu/5/include/stddef.h \
+ /usr/aarch64-linux-gnu/include/xlocale.h \
+ /usr/aarch64-linux-gnu/include/bits/wchar2.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/allocator.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/c++allocator.h \
+ /usr/aarch64-linux-gnu/include/c++/5/ext/new_allocator.h \
+ /usr/aarch64-linux-gnu/include/c++/5/new \
+ /usr/aarch64-linux-gnu/include/c++/5/exception \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/atomic_lockfree_defines.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/localefwd.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/c++locale.h \
+ /usr/aarch64-linux-gnu/include/c++/5/clocale \
+ /usr/aarch64-linux-gnu/include/locale.h \
+ /usr/aarch64-linux-gnu/include/bits/locale.h \
+ /usr/aarch64-linux-gnu/include/c++/5/iosfwd \
+ /usr/aarch64-linux-gnu/include/c++/5/cctype \
+ /usr/aarch64-linux-gnu/include/ctype.h \
+ /usr/aarch64-linux-gnu/include/bits/types.h \
+ /usr/aarch64-linux-gnu/include/bits/typesizes.h \
+ /usr/aarch64-linux-gnu/include/endian.h \
+ /usr/aarch64-linux-gnu/include/bits/endian.h \
+ /usr/aarch64-linux-gnu/include/bits/byteswap.h \
+ /usr/aarch64-linux-gnu/include/bits/byteswap-16.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/ostream_insert.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/cxxabi_forced.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_function.h \
+ /usr/aarch64-linux-gnu/include/c++/5/backward/binders.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/range_access.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/basic_string.h \
+ /usr/aarch64-linux-gnu/include/c++/5/ext/atomicity.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/gthr.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/gthr-default.h \
+ /usr/aarch64-linux-gnu/include/pthread.h \
+ /usr/aarch64-linux-gnu/include/sched.h \
+ /usr/aarch64-linux-gnu/include/time.h \
+ /usr/aarch64-linux-gnu/include/bits/sched.h \
+ /usr/aarch64-linux-gnu/include/bits/time.h \
+ /usr/aarch64-linux-gnu/include/bits/timex.h \
+ /usr/aarch64-linux-gnu/include/bits/pthreadtypes.h \
+ /usr/aarch64-linux-gnu/include/bits/setjmp.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/atomic_word.h \
+ /usr/aarch64-linux-gnu/include/c++/5/ext/alloc_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/basic_string.tcc
+
+/usr/aarch64-linux-gnu/include/stdc-predef.h:
+
+http/server/mime_types.hpp:
+
+/usr/aarch64-linux-gnu/include/c++/5/string:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/c++config.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/os_defines.h:
+
+/usr/aarch64-linux-gnu/include/features.h:
+
+/usr/aarch64-linux-gnu/include/sys/cdefs.h:
+
+/usr/aarch64-linux-gnu/include/bits/wordsize.h:
+
+/usr/aarch64-linux-gnu/include/gnu/stubs.h:
+
+/usr/aarch64-linux-gnu/include/gnu/stubs-lp64.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/cpu_defines.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stringfwd.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/memoryfwd.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/char_traits.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_algobase.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/functexcept.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/exception_defines.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/cpp_type_traits.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/ext/type_traits.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/ext/numeric_traits.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_pair.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/move.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/concept_check.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_iterator_base_types.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_iterator_base_funcs.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/debug/debug.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_iterator.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/ptr_traits.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/predefined_ops.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/postypes.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/cwchar:
+
+/usr/aarch64-linux-gnu/include/wchar.h:
+
+/usr/aarch64-linux-gnu/include/stdio.h:
+
+/usr/lib/gcc-cross/aarch64-linux-gnu/5/include/stdarg.h:
+
+/usr/aarch64-linux-gnu/include/bits/wchar.h:
+
+/usr/lib/gcc-cross/aarch64-linux-gnu/5/include/stddef.h:
+
+/usr/aarch64-linux-gnu/include/xlocale.h:
+
+/usr/aarch64-linux-gnu/include/bits/wchar2.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/allocator.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/c++allocator.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/ext/new_allocator.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/new:
+
+/usr/aarch64-linux-gnu/include/c++/5/exception:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/atomic_lockfree_defines.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/localefwd.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/c++locale.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/clocale:
+
+/usr/aarch64-linux-gnu/include/locale.h:
+
+/usr/aarch64-linux-gnu/include/bits/locale.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/iosfwd:
+
+/usr/aarch64-linux-gnu/include/c++/5/cctype:
+
+/usr/aarch64-linux-gnu/include/ctype.h:
+
+/usr/aarch64-linux-gnu/include/bits/types.h:
+
+/usr/aarch64-linux-gnu/include/bits/typesizes.h:
+
+/usr/aarch64-linux-gnu/include/endian.h:
+
+/usr/aarch64-linux-gnu/include/bits/endian.h:
+
+/usr/aarch64-linux-gnu/include/bits/byteswap.h:
+
+/usr/aarch64-linux-gnu/include/bits/byteswap-16.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/ostream_insert.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/cxxabi_forced.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_function.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/backward/binders.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/range_access.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/basic_string.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/ext/atomicity.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/gthr.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/gthr-default.h:
+
+/usr/aarch64-linux-gnu/include/pthread.h:
+
+/usr/aarch64-linux-gnu/include/sched.h:
+
+/usr/aarch64-linux-gnu/include/time.h:
+
+/usr/aarch64-linux-gnu/include/bits/sched.h:
+
+/usr/aarch64-linux-gnu/include/bits/time.h:
+
+/usr/aarch64-linux-gnu/include/bits/timex.h:
+
+/usr/aarch64-linux-gnu/include/bits/pthreadtypes.h:
+
+/usr/aarch64-linux-gnu/include/bits/setjmp.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/atomic_word.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/ext/alloc_traits.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/basic_string.tcc:

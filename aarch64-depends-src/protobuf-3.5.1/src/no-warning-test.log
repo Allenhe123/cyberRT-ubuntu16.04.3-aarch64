@@ -1,0 +1,2 @@
+./no-warning-test: line 117: /home/allen/protobuf-3.5.1/src/.libs/lt-no-warning-test: cannot execute binary file: Exec format error
+./no-warning-test: line 117: /home/allen/protobuf-3.5.1/src/.libs/lt-no-warning-test: Success

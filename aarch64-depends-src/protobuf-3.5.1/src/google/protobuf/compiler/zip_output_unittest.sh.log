@@ -1,0 +1,3 @@
+./protoc: line 117: /home/allen/protobuf-3.5.1/src/.libs/lt-protoc: cannot execute binary file: Exec format error
+./protoc: line 117: /home/allen/protobuf-3.5.1/src/.libs/lt-protoc: Success
+protoc failed.

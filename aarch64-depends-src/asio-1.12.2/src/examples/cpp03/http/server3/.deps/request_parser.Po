@@ -1,0 +1,471 @@
+http/server3/request_parser.o: http/server3/request_parser.cpp \
+ /usr/aarch64-linux-gnu/include/stdc-predef.h \
+ http/server3/request_parser.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/logic/tribool.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/logic/tribool_fwd.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/user.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/detail/select_compiler_config.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/compiler/gcc.hpp \
+ /usr/aarch64-linux-gnu/include/c++/5/cstddef \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/c++config.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/os_defines.h \
+ /usr/aarch64-linux-gnu/include/features.h \
+ /usr/aarch64-linux-gnu/include/sys/cdefs.h \
+ /usr/aarch64-linux-gnu/include/bits/wordsize.h \
+ /usr/aarch64-linux-gnu/include/gnu/stubs.h \
+ /usr/aarch64-linux-gnu/include/gnu/stubs-lp64.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/cpu_defines.h \
+ /usr/lib/gcc-cross/aarch64-linux-gnu/5/include/stddef.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/detail/select_stdlib_config.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/stdlib/libstdcpp3.hpp \
+ /usr/aarch64-linux-gnu/include/unistd.h \
+ /usr/aarch64-linux-gnu/include/bits/posix_opt.h \
+ /usr/aarch64-linux-gnu/include/bits/environments.h \
+ /usr/aarch64-linux-gnu/include/bits/types.h \
+ /usr/aarch64-linux-gnu/include/bits/typesizes.h \
+ /usr/aarch64-linux-gnu/include/bits/confname.h \
+ /usr/aarch64-linux-gnu/include/getopt.h \
+ /usr/aarch64-linux-gnu/include/bits/unistd.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/detail/select_platform_config.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/platform/linux.hpp \
+ /usr/aarch64-linux-gnu/include/c++/5/cstdlib \
+ /usr/aarch64-linux-gnu/include/stdlib.h \
+ /usr/aarch64-linux-gnu/include/bits/waitflags.h \
+ /usr/aarch64-linux-gnu/include/bits/waitstatus.h \
+ /usr/aarch64-linux-gnu/include/endian.h \
+ /usr/aarch64-linux-gnu/include/bits/endian.h \
+ /usr/aarch64-linux-gnu/include/bits/byteswap.h \
+ /usr/aarch64-linux-gnu/include/bits/byteswap-16.h \
+ /usr/aarch64-linux-gnu/include/xlocale.h \
+ /usr/aarch64-linux-gnu/include/sys/types.h \
+ /usr/aarch64-linux-gnu/include/time.h \
+ /usr/aarch64-linux-gnu/include/sys/select.h \
+ /usr/aarch64-linux-gnu/include/bits/select.h \
+ /usr/aarch64-linux-gnu/include/bits/sigset.h \
+ /usr/aarch64-linux-gnu/include/bits/time.h \
+ /usr/aarch64-linux-gnu/include/bits/select2.h \
+ /usr/aarch64-linux-gnu/include/sys/sysmacros.h \
+ /usr/aarch64-linux-gnu/include/bits/pthreadtypes.h \
+ /usr/aarch64-linux-gnu/include/alloca.h \
+ /usr/aarch64-linux-gnu/include/bits/stdlib-bsearch.h \
+ /usr/aarch64-linux-gnu/include/bits/stdlib-float.h \
+ /usr/aarch64-linux-gnu/include/bits/stdlib.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/detail/posix_features.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/detail/suffix.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/helper_macros.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/detail/workaround.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/workaround.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/tuple/tuple.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/static_assert.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/ref.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/core/ref.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/core/addressof.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/tuple/detail/tuple_basic.hpp \
+ /usr/aarch64-linux-gnu/include/c++/5/utility \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_relops.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_pair.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/move.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/concept_check.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/cv_traits.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/add_const.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/detail/config.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/version.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/add_volatile.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/add_cv.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_const.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/integral_constant.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_volatile.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/remove_const.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/remove_volatile.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/remove_cv.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/function_traits.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_function.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_reference.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_lvalue_reference.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_rvalue_reference.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/detail/is_function_ptr_helper.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/add_pointer.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/remove_reference.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/utility/swap.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/core/swap.hpp \
+ /usr/aarch64-linux-gnu/include/c++/5/algorithm \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_algobase.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/functexcept.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/exception_defines.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/cpp_type_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/5/ext/type_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/5/ext/numeric_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_iterator_base_types.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_iterator_base_funcs.h \
+ /usr/aarch64-linux-gnu/include/c++/5/debug/debug.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_iterator.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/ptr_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/predefined_ops.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_algo.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/algorithmfwd.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_heap.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_tempbuf.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_construct.h \
+ /usr/aarch64-linux-gnu/include/c++/5/new \
+ /usr/aarch64-linux-gnu/include/c++/5/exception \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/atomic_lockfree_defines.h \
+ /usr/aarch64-linux-gnu/include/c++/5/ext/alloc_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/allocator.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/c++allocator.h \
+ /usr/aarch64-linux-gnu/include/c++/5/ext/new_allocator.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/memoryfwd.h \
+ http/server3/request.hpp /usr/aarch64-linux-gnu/include/c++/5/string \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stringfwd.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/char_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/postypes.h \
+ /usr/aarch64-linux-gnu/include/c++/5/cwchar \
+ /usr/aarch64-linux-gnu/include/wchar.h \
+ /usr/aarch64-linux-gnu/include/stdio.h \
+ /usr/lib/gcc-cross/aarch64-linux-gnu/5/include/stdarg.h \
+ /usr/aarch64-linux-gnu/include/bits/wchar.h \
+ /usr/aarch64-linux-gnu/include/bits/wchar2.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/localefwd.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/c++locale.h \
+ /usr/aarch64-linux-gnu/include/c++/5/clocale \
+ /usr/aarch64-linux-gnu/include/locale.h \
+ /usr/aarch64-linux-gnu/include/bits/locale.h \
+ /usr/aarch64-linux-gnu/include/c++/5/iosfwd \
+ /usr/aarch64-linux-gnu/include/c++/5/cctype \
+ /usr/aarch64-linux-gnu/include/ctype.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/ostream_insert.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/cxxabi_forced.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_function.h \
+ /usr/aarch64-linux-gnu/include/c++/5/backward/binders.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/range_access.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/basic_string.h \
+ /usr/aarch64-linux-gnu/include/c++/5/ext/atomicity.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/gthr.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/gthr-default.h \
+ /usr/aarch64-linux-gnu/include/pthread.h \
+ /usr/aarch64-linux-gnu/include/sched.h \
+ /usr/aarch64-linux-gnu/include/bits/sched.h \
+ /usr/aarch64-linux-gnu/include/bits/timex.h \
+ /usr/aarch64-linux-gnu/include/bits/setjmp.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/atomic_word.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/basic_string.tcc \
+ /usr/aarch64-linux-gnu/include/c++/5/vector \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_uninitialized.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_vector.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_bvector.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/vector.tcc \
+ http/server3/header.hpp
+
+/usr/aarch64-linux-gnu/include/stdc-predef.h:
+
+http/server3/request_parser.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/logic/tribool.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/logic/tribool_fwd.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/user.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/detail/select_compiler_config.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/compiler/gcc.hpp:
+
+/usr/aarch64-linux-gnu/include/c++/5/cstddef:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/c++config.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/os_defines.h:
+
+/usr/aarch64-linux-gnu/include/features.h:
+
+/usr/aarch64-linux-gnu/include/sys/cdefs.h:
+
+/usr/aarch64-linux-gnu/include/bits/wordsize.h:
+
+/usr/aarch64-linux-gnu/include/gnu/stubs.h:
+
+/usr/aarch64-linux-gnu/include/gnu/stubs-lp64.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/cpu_defines.h:
+
+/usr/lib/gcc-cross/aarch64-linux-gnu/5/include/stddef.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/detail/select_stdlib_config.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/stdlib/libstdcpp3.hpp:
+
+/usr/aarch64-linux-gnu/include/unistd.h:
+
+/usr/aarch64-linux-gnu/include/bits/posix_opt.h:
+
+/usr/aarch64-linux-gnu/include/bits/environments.h:
+
+/usr/aarch64-linux-gnu/include/bits/types.h:
+
+/usr/aarch64-linux-gnu/include/bits/typesizes.h:
+
+/usr/aarch64-linux-gnu/include/bits/confname.h:
+
+/usr/aarch64-linux-gnu/include/getopt.h:
+
+/usr/aarch64-linux-gnu/include/bits/unistd.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/detail/select_platform_config.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/platform/linux.hpp:
+
+/usr/aarch64-linux-gnu/include/c++/5/cstdlib:
+
+/usr/aarch64-linux-gnu/include/stdlib.h:
+
+/usr/aarch64-linux-gnu/include/bits/waitflags.h:
+
+/usr/aarch64-linux-gnu/include/bits/waitstatus.h:
+
+/usr/aarch64-linux-gnu/include/endian.h:
+
+/usr/aarch64-linux-gnu/include/bits/endian.h:
+
+/usr/aarch64-linux-gnu/include/bits/byteswap.h:
+
+/usr/aarch64-linux-gnu/include/bits/byteswap-16.h:
+
+/usr/aarch64-linux-gnu/include/xlocale.h:
+
+/usr/aarch64-linux-gnu/include/sys/types.h:
+
+/usr/aarch64-linux-gnu/include/time.h:
+
+/usr/aarch64-linux-gnu/include/sys/select.h:
+
+/usr/aarch64-linux-gnu/include/bits/select.h:
+
+/usr/aarch64-linux-gnu/include/bits/sigset.h:
+
+/usr/aarch64-linux-gnu/include/bits/time.h:
+
+/usr/aarch64-linux-gnu/include/bits/select2.h:
+
+/usr/aarch64-linux-gnu/include/sys/sysmacros.h:
+
+/usr/aarch64-linux-gnu/include/bits/pthreadtypes.h:
+
+/usr/aarch64-linux-gnu/include/alloca.h:
+
+/usr/aarch64-linux-gnu/include/bits/stdlib-bsearch.h:
+
+/usr/aarch64-linux-gnu/include/bits/stdlib-float.h:
+
+/usr/aarch64-linux-gnu/include/bits/stdlib.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/detail/posix_features.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/detail/suffix.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/helper_macros.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/detail/workaround.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/workaround.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/tuple/tuple.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/static_assert.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/ref.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/core/ref.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/core/addressof.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/tuple/detail/tuple_basic.hpp:
+
+/usr/aarch64-linux-gnu/include/c++/5/utility:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_relops.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_pair.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/move.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/concept_check.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/cv_traits.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/add_const.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/detail/config.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/version.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/add_volatile.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/add_cv.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_const.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/integral_constant.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_volatile.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/remove_const.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/remove_volatile.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/remove_cv.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/function_traits.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_function.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_reference.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_lvalue_reference.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_rvalue_reference.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/detail/is_function_ptr_helper.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/add_pointer.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/remove_reference.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/utility/swap.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/core/swap.hpp:
+
+/usr/aarch64-linux-gnu/include/c++/5/algorithm:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_algobase.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/functexcept.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/exception_defines.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/cpp_type_traits.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/ext/type_traits.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/ext/numeric_traits.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_iterator_base_types.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_iterator_base_funcs.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/debug/debug.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_iterator.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/ptr_traits.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/predefined_ops.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_algo.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/algorithmfwd.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_heap.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_tempbuf.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_construct.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/new:
+
+/usr/aarch64-linux-gnu/include/c++/5/exception:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/atomic_lockfree_defines.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/ext/alloc_traits.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/allocator.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/c++allocator.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/ext/new_allocator.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/memoryfwd.h:
+
+http/server3/request.hpp:
+
+/usr/aarch64-linux-gnu/include/c++/5/string:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stringfwd.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/char_traits.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/postypes.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/cwchar:
+
+/usr/aarch64-linux-gnu/include/wchar.h:
+
+/usr/aarch64-linux-gnu/include/stdio.h:
+
+/usr/lib/gcc-cross/aarch64-linux-gnu/5/include/stdarg.h:
+
+/usr/aarch64-linux-gnu/include/bits/wchar.h:
+
+/usr/aarch64-linux-gnu/include/bits/wchar2.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/localefwd.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/c++locale.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/clocale:
+
+/usr/aarch64-linux-gnu/include/locale.h:
+
+/usr/aarch64-linux-gnu/include/bits/locale.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/iosfwd:
+
+/usr/aarch64-linux-gnu/include/c++/5/cctype:
+
+/usr/aarch64-linux-gnu/include/ctype.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/ostream_insert.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/cxxabi_forced.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_function.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/backward/binders.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/range_access.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/basic_string.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/ext/atomicity.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/gthr.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/gthr-default.h:
+
+/usr/aarch64-linux-gnu/include/pthread.h:
+
+/usr/aarch64-linux-gnu/include/sched.h:
+
+/usr/aarch64-linux-gnu/include/bits/sched.h:
+
+/usr/aarch64-linux-gnu/include/bits/timex.h:
+
+/usr/aarch64-linux-gnu/include/bits/setjmp.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/atomic_word.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/basic_string.tcc:
+
+/usr/aarch64-linux-gnu/include/c++/5/vector:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_uninitialized.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_vector.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_bvector.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/vector.tcc:
+
+http/server3/header.hpp:

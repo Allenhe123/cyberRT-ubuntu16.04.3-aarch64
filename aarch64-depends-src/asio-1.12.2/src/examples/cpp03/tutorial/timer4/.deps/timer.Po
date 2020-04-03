@@ -1,0 +1,3474 @@
+tutorial/timer4/timer.o: tutorial/timer4/timer.cpp \
+ /usr/aarch64-linux-gnu/include/stdc-predef.h \
+ /usr/aarch64-linux-gnu/include/c++/5/iostream \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/c++config.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/os_defines.h \
+ /usr/aarch64-linux-gnu/include/features.h \
+ /usr/aarch64-linux-gnu/include/sys/cdefs.h \
+ /usr/aarch64-linux-gnu/include/bits/wordsize.h \
+ /usr/aarch64-linux-gnu/include/gnu/stubs.h \
+ /usr/aarch64-linux-gnu/include/gnu/stubs-lp64.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/cpu_defines.h \
+ /usr/aarch64-linux-gnu/include/c++/5/ostream \
+ /usr/aarch64-linux-gnu/include/c++/5/ios \
+ /usr/aarch64-linux-gnu/include/c++/5/iosfwd \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stringfwd.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/memoryfwd.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/postypes.h \
+ /usr/aarch64-linux-gnu/include/c++/5/cwchar \
+ /usr/aarch64-linux-gnu/include/wchar.h \
+ /usr/aarch64-linux-gnu/include/stdio.h \
+ /usr/lib/gcc-cross/aarch64-linux-gnu/5/include/stdarg.h \
+ /usr/aarch64-linux-gnu/include/bits/wchar.h \
+ /usr/lib/gcc-cross/aarch64-linux-gnu/5/include/stddef.h \
+ /usr/aarch64-linux-gnu/include/xlocale.h \
+ /usr/aarch64-linux-gnu/include/bits/wchar2.h \
+ /usr/aarch64-linux-gnu/include/c++/5/exception \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/atomic_lockfree_defines.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/char_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_algobase.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/functexcept.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/exception_defines.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/cpp_type_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/5/ext/type_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/5/ext/numeric_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_pair.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/move.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/concept_check.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_iterator_base_types.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_iterator_base_funcs.h \
+ /usr/aarch64-linux-gnu/include/c++/5/debug/debug.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_iterator.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/ptr_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/predefined_ops.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/localefwd.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/c++locale.h \
+ /usr/aarch64-linux-gnu/include/c++/5/clocale \
+ /usr/aarch64-linux-gnu/include/locale.h \
+ /usr/aarch64-linux-gnu/include/bits/locale.h \
+ /usr/aarch64-linux-gnu/include/c++/5/cctype \
+ /usr/aarch64-linux-gnu/include/ctype.h \
+ /usr/aarch64-linux-gnu/include/bits/types.h \
+ /usr/aarch64-linux-gnu/include/bits/typesizes.h \
+ /usr/aarch64-linux-gnu/include/endian.h \
+ /usr/aarch64-linux-gnu/include/bits/endian.h \
+ /usr/aarch64-linux-gnu/include/bits/byteswap.h \
+ /usr/aarch64-linux-gnu/include/bits/byteswap-16.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/ios_base.h \
+ /usr/aarch64-linux-gnu/include/c++/5/ext/atomicity.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/gthr.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/gthr-default.h \
+ /usr/aarch64-linux-gnu/include/pthread.h \
+ /usr/aarch64-linux-gnu/include/sched.h \
+ /usr/aarch64-linux-gnu/include/time.h \
+ /usr/aarch64-linux-gnu/include/bits/sched.h \
+ /usr/aarch64-linux-gnu/include/bits/time.h \
+ /usr/aarch64-linux-gnu/include/bits/timex.h \
+ /usr/aarch64-linux-gnu/include/bits/pthreadtypes.h \
+ /usr/aarch64-linux-gnu/include/bits/setjmp.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/atomic_word.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/locale_classes.h \
+ /usr/aarch64-linux-gnu/include/c++/5/string \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/allocator.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/c++allocator.h \
+ /usr/aarch64-linux-gnu/include/c++/5/ext/new_allocator.h \
+ /usr/aarch64-linux-gnu/include/c++/5/new \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/ostream_insert.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/cxxabi_forced.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_function.h \
+ /usr/aarch64-linux-gnu/include/c++/5/backward/binders.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/range_access.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/basic_string.h \
+ /usr/aarch64-linux-gnu/include/c++/5/ext/alloc_traits.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/basic_string.tcc \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/locale_classes.tcc \
+ /usr/aarch64-linux-gnu/include/c++/5/stdexcept \
+ /usr/aarch64-linux-gnu/include/c++/5/streambuf \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/streambuf.tcc \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/basic_ios.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/locale_facets.h \
+ /usr/aarch64-linux-gnu/include/c++/5/cwctype \
+ /usr/aarch64-linux-gnu/include/wctype.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/ctype_base.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/streambuf_iterator.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/ctype_inline.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/locale_facets.tcc \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/basic_ios.tcc \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/ostream.tcc \
+ /usr/aarch64-linux-gnu/include/c++/5/istream \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/istream.tcc \
+ ../../../include/asio.hpp ../../../include/asio/associated_allocator.hpp \
+ ../../../include/asio/detail/config.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/user.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/detail/select_compiler_config.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/compiler/gcc.hpp \
+ /usr/aarch64-linux-gnu/include/c++/5/cstddef \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/detail/select_stdlib_config.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/stdlib/libstdcpp3.hpp \
+ /usr/aarch64-linux-gnu/include/unistd.h \
+ /usr/aarch64-linux-gnu/include/bits/posix_opt.h \
+ /usr/aarch64-linux-gnu/include/bits/environments.h \
+ /usr/aarch64-linux-gnu/include/bits/confname.h \
+ /usr/aarch64-linux-gnu/include/getopt.h \
+ /usr/aarch64-linux-gnu/include/bits/unistd.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/detail/select_platform_config.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/platform/linux.hpp \
+ /usr/aarch64-linux-gnu/include/c++/5/cstdlib \
+ /usr/aarch64-linux-gnu/include/stdlib.h \
+ /usr/aarch64-linux-gnu/include/bits/waitflags.h \
+ /usr/aarch64-linux-gnu/include/bits/waitstatus.h \
+ /usr/aarch64-linux-gnu/include/sys/types.h \
+ /usr/aarch64-linux-gnu/include/sys/select.h \
+ /usr/aarch64-linux-gnu/include/bits/select.h \
+ /usr/aarch64-linux-gnu/include/bits/sigset.h \
+ /usr/aarch64-linux-gnu/include/bits/select2.h \
+ /usr/aarch64-linux-gnu/include/sys/sysmacros.h \
+ /usr/aarch64-linux-gnu/include/alloca.h \
+ /usr/aarch64-linux-gnu/include/bits/stdlib-bsearch.h \
+ /usr/aarch64-linux-gnu/include/bits/stdlib-float.h \
+ /usr/aarch64-linux-gnu/include/bits/stdlib.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/detail/posix_features.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/detail/suffix.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/helper_macros.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/version.hpp \
+ /usr/aarch64-linux-gnu/include/linux/version.h \
+ /usr/aarch64-linux-gnu/include/c++/5/memory \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_construct.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_uninitialized.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_tempbuf.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_raw_storage_iter.h \
+ /usr/aarch64-linux-gnu/include/c++/5/backward/auto_ptr.h \
+ ../../../include/asio/detail/type_traits.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/add_const.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/detail/config.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/workaround.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/conditional.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/decay.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_array.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/integral_constant.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/detail/workaround.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_function.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_reference.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_lvalue_reference.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_rvalue_reference.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/detail/is_function_ptr_helper.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/remove_bounds.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/remove_extent.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/add_pointer.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/remove_reference.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/remove_cv.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_base_of.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_base_and_derived.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/intrinsics.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_same.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_class.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_const.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_convertible.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_complete.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/declval.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/add_rvalue_reference.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_void.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/detail/yes_no_type.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/static_assert.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_arithmetic.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_integral.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_floating_point.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_abstract.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/add_lvalue_reference.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/add_reference.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/remove_pointer.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/utility/enable_if.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/core/enable_if.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/utility/result_of.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/cat.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/config/config.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/iteration/iterate.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/arithmetic/dec.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/arithmetic/inc.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/array/elem.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/array/data.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/tuple/elem.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/facilities/expand.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/facilities/overload.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/variadic/size.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/tuple/rem.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/tuple/detail/is_single_return.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/variadic/elem.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/array/size.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/slot/slot.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/slot/detail/def.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/repetition/enum_params.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/punctuation/comma_if.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/control/if.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/control/iif.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/logical/bool.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/facilities/empty.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/punctuation/comma.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/repetition/repeat.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/debug/error.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/detail/auto_rec.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/tuple/eat.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/repetition/enum_trailing_params.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/repetition/enum_binary_params.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/repetition/enum_shifted_params.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/facilities/intercept.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_pointer.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_member_function_pointer.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/type_identity.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/iteration/detail/iter/forward1.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/iteration/detail/bounds/lower1.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/slot/detail/shared.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/iteration/detail/bounds/upper1.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/utility/detail/result_of_iterate.hpp \
+ ../../../include/asio/detail/push_options.hpp \
+ ../../../include/asio/detail/pop_options.hpp \
+ ../../../include/asio/associated_executor.hpp \
+ ../../../include/asio/is_executor.hpp \
+ ../../../include/asio/detail/is_executor.hpp \
+ ../../../include/asio/system_executor.hpp \
+ ../../../include/asio/impl/system_executor.hpp \
+ ../../../include/asio/detail/executor_op.hpp \
+ ../../../include/asio/detail/fenced_block.hpp \
+ ../../../include/asio/detail/gcc_sync_fenced_block.hpp \
+ ../../../include/asio/detail/noncopyable.hpp \
+ ../../../include/asio/detail/handler_alloc_helpers.hpp \
+ ../../../include/asio/detail/memory.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/shared_ptr.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/shared_ptr.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/no_tr1/memory.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/assert.hpp \
+ /usr/aarch64-linux-gnu/include/assert.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/checked_delete.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/core/checked_delete.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/throw_exception.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/exception/exception.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/current_function.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/shared_count.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/bad_weak_ptr.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/sp_counted_base.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/sp_has_sync.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/sp_counted_base_sync.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/detail/sp_typeinfo.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/core/typeinfo.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/core/demangle.hpp \
+ /usr/aarch64-linux-gnu/include/c++/5/cxxabi.h \
+ /usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/cxxabi_tweaks.h \
+ /usr/aarch64-linux-gnu/include/c++/5/typeinfo \
+ /usr/lib/gcc-cross/aarch64-linux-gnu/5/include-fixed/limits.h \
+ /usr/lib/gcc-cross/aarch64-linux-gnu/5/include-fixed/syslimits.h \
+ /usr/aarch64-linux-gnu/include/limits.h \
+ /usr/aarch64-linux-gnu/include/bits/posix1_lim.h \
+ /usr/aarch64-linux-gnu/include/bits/local_lim.h \
+ /usr/aarch64-linux-gnu/include/linux/limits.h \
+ /usr/aarch64-linux-gnu/include/bits/posix2_lim.h \
+ /usr/aarch64-linux-gnu/include/bits/xopen_lim.h \
+ /usr/aarch64-linux-gnu/include/bits/stdio_lim.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/sp_counted_impl.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/core/addressof.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/sp_disable_deprecated.hpp \
+ /usr/aarch64-linux-gnu/include/c++/5/functional \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/sp_convertible.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/sp_nullptr_t.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/sp_noexcept.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/spinlock_pool.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/spinlock.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/spinlock_sync.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/yield_k.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/language.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/language/stdc.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/version_number.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/make.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/detail/test.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/language/stdcpp.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/language/objc.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/language/cuda.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/alpha.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/arm.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/blackfin.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/convex.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/ia64.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/m68k.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/mips.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/parisc.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/ppc.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/ptx.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/pyramid.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/rs6k.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/sparc.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/superh.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/sys370.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/sys390.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/x86.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/x86/32.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/x86/64.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/z.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/borland.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/clang.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/comeau.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/compaq.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/diab.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/digitalmars.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/dignus.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/edg.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/ekopath.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/gcc_xml.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/gcc.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/detail/comp_detected.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/greenhills.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/hp_acc.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/iar.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/ibm.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/intel.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/kai.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/llvm.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/metaware.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/metrowerks.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/microtec.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/mpw.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/nvcc.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/palm.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/pgi.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/sgi_mipspro.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/sunpro.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/tendra.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/visualc.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/watcom.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/c.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/c/_prefix.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/detail/_cassert.h \
+ /usr/aarch64-linux-gnu/include/c++/5/cassert \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/c/cloudabi.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/c/gnu.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/c/uc.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/c/vms.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/c/zos.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/_prefix.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/detail/_exception.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/cxx.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/dinkumware.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/libcomo.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/modena.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/msl.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/roguewave.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/sgi.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/stdcpp3.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/stlport.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/vacpp.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/aix.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/amigaos.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/android.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/beos.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/bsd.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/macos.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/ios.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/bsd/bsdi.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/bsd/dragonfly.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/bsd/free.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/bsd/open.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/bsd/net.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/cygwin.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/haiku.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/hpux.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/irix.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/linux.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/detail/os_detected.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/os400.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/qnxnto.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/solaris.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/unix.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/vms.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/windows.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/other.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/other/endian.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/cloudabi.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/mingw.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/mingw32.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/mingw64.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/windows_uwp.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/windows_desktop.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/windows_phone.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/windows_server.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/windows_store.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/windows_system.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/windows_runtime.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/ios.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/hardware.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/hardware/simd.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/hardware/simd/x86.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/hardware/simd/x86/versions.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/hardware/simd/x86_amd.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/hardware/simd/x86_amd/versions.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/hardware/simd/arm.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/hardware/simd/arm/versions.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/hardware/simd/ppc.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/hardware/simd/ppc/versions.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/version.h \
+ /usr/aarch64-linux-gnu/include/c++/5/algorithm \
+ /usr/aarch64-linux-gnu/include/c++/5/utility \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_relops.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_algo.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/algorithmfwd.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_heap.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/operator_bool.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/local_sp_deleter.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/local_counted_base.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/weak_ptr.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/weak_ptr.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/utility/addressof.hpp \
+ ../../../include/asio/detail/recycling_allocator.hpp \
+ ../../../include/asio/detail/thread_context.hpp \
+ /usr/aarch64-linux-gnu/include/c++/5/climits \
+ ../../../include/asio/detail/call_stack.hpp \
+ ../../../include/asio/detail/tss_ptr.hpp \
+ ../../../include/asio/detail/posix_tss_ptr.hpp \
+ ../../../include/asio/detail/impl/posix_tss_ptr.ipp \
+ ../../../include/asio/detail/throw_error.hpp \
+ ../../../include/asio/error_code.hpp \
+ ../../../include/asio/impl/error_code.ipp \
+ /usr/aarch64-linux-gnu/include/c++/5/cerrno \
+ /usr/aarch64-linux-gnu/include/errno.h \
+ /usr/aarch64-linux-gnu/include/bits/errno.h \
+ /usr/aarch64-linux-gnu/include/linux/errno.h \
+ /usr/aarch64-linux-gnu/include/asm/errno.h \
+ /usr/aarch64-linux-gnu/include/asm-generic/errno.h \
+ /usr/aarch64-linux-gnu/include/asm-generic/errno-base.h \
+ /usr/aarch64-linux-gnu/include/c++/5/cstring \
+ /usr/aarch64-linux-gnu/include/string.h \
+ /usr/aarch64-linux-gnu/include/bits/string3.h \
+ ../../../include/asio/detail/local_free_on_block_exit.hpp \
+ ../../../include/asio/detail/socket_types.hpp \
+ /usr/aarch64-linux-gnu/include/sys/ioctl.h \
+ /usr/aarch64-linux-gnu/include/bits/ioctls.h \
+ /usr/aarch64-linux-gnu/include/asm/ioctls.h \
+ /usr/aarch64-linux-gnu/include/asm-generic/ioctls.h \
+ /usr/aarch64-linux-gnu/include/linux/ioctl.h \
+ /usr/aarch64-linux-gnu/include/asm/ioctl.h \
+ /usr/aarch64-linux-gnu/include/asm-generic/ioctl.h \
+ /usr/aarch64-linux-gnu/include/bits/ioctl-types.h \
+ /usr/aarch64-linux-gnu/include/sys/ttydefaults.h \
+ /usr/aarch64-linux-gnu/include/poll.h \
+ /usr/aarch64-linux-gnu/include/sys/poll.h \
+ /usr/aarch64-linux-gnu/include/bits/poll.h \
+ /usr/aarch64-linux-gnu/include/bits/poll2.h \
+ /usr/aarch64-linux-gnu/include/sys/stat.h \
+ /usr/aarch64-linux-gnu/include/bits/stat.h \
+ /usr/aarch64-linux-gnu/include/fcntl.h \
+ /usr/aarch64-linux-gnu/include/bits/fcntl.h \
+ /usr/aarch64-linux-gnu/include/bits/fcntl-linux.h \
+ /usr/aarch64-linux-gnu/include/bits/uio.h \
+ /usr/aarch64-linux-gnu/include/bits/fcntl2.h \
+ /usr/aarch64-linux-gnu/include/sys/socket.h \
+ /usr/aarch64-linux-gnu/include/sys/uio.h \
+ /usr/aarch64-linux-gnu/include/bits/socket.h \
+ /usr/aarch64-linux-gnu/include/bits/socket_type.h \
+ /usr/aarch64-linux-gnu/include/bits/sockaddr.h \
+ /usr/aarch64-linux-gnu/include/asm/socket.h \
+ /usr/aarch64-linux-gnu/include/asm-generic/socket.h \
+ /usr/aarch64-linux-gnu/include/asm/sockios.h \
+ /usr/aarch64-linux-gnu/include/asm-generic/sockios.h \
+ /usr/aarch64-linux-gnu/include/bits/socket2.h \
+ /usr/aarch64-linux-gnu/include/sys/un.h \
+ /usr/aarch64-linux-gnu/include/netinet/in.h \
+ /usr/lib/gcc-cross/aarch64-linux-gnu/5/include/stdint.h \
+ /usr/aarch64-linux-gnu/include/stdint.h \
+ /usr/aarch64-linux-gnu/include/bits/in.h \
+ /usr/aarch64-linux-gnu/include/netinet/tcp.h \
+ /usr/aarch64-linux-gnu/include/arpa/inet.h \
+ /usr/aarch64-linux-gnu/include/netdb.h \
+ /usr/aarch64-linux-gnu/include/rpc/netdb.h \
+ /usr/aarch64-linux-gnu/include/bits/siginfo.h \
+ /usr/aarch64-linux-gnu/include/bits/netdb.h \
+ /usr/aarch64-linux-gnu/include/net/if.h \
+ ../../../include/asio/detail/impl/throw_error.ipp \
+ ../../../include/asio/detail/throw_exception.hpp \
+ ../../../include/asio/system_error.hpp \
+ ../../../include/asio/detail/scoped_ptr.hpp \
+ ../../../include/asio/error.hpp ../../../include/asio/impl/error.ipp \
+ ../../../include/asio/detail/thread_info_base.hpp \
+ ../../../include/asio/associated_allocator.hpp \
+ ../../../include/asio/handler_alloc_hook.hpp \
+ ../../../include/asio/impl/handler_alloc_hook.ipp \
+ ../../../include/asio/detail/handler_invoke_helpers.hpp \
+ ../../../include/asio/handler_invoke_hook.hpp \
+ ../../../include/asio/detail/scheduler_operation.hpp \
+ ../../../include/asio/detail/handler_tracking.hpp \
+ ../../../include/asio/detail/impl/handler_tracking.ipp \
+ ../../../include/asio/detail/op_queue.hpp \
+ ../../../include/asio/detail/global.hpp \
+ ../../../include/asio/detail/posix_global.hpp \
+ ../../../include/asio/system_context.hpp \
+ ../../../include/asio/detail/scheduler.hpp \
+ ../../../include/asio/execution_context.hpp \
+ ../../../include/asio/detail/variadic_templates.hpp \
+ ../../../include/asio/impl/execution_context.hpp \
+ ../../../include/asio/detail/handler_type_requirements.hpp \
+ ../../../include/asio/async_result.hpp \
+ ../../../include/asio/handler_type.hpp \
+ ../../../include/asio/detail/service_registry.hpp \
+ ../../../include/asio/detail/mutex.hpp \
+ ../../../include/asio/detail/posix_mutex.hpp \
+ ../../../include/asio/detail/scoped_lock.hpp \
+ ../../../include/asio/detail/impl/posix_mutex.ipp \
+ ../../../include/asio/detail/impl/service_registry.hpp \
+ ../../../include/asio/detail/impl/service_registry.ipp \
+ /usr/aarch64-linux-gnu/include/c++/5/vector \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_vector.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_bvector.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/vector.tcc \
+ ../../../include/asio/impl/execution_context.ipp \
+ ../../../include/asio/detail/atomic_count.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/detail/atomic_count.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/atomic_count.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/atomic_count_sync.hpp \
+ ../../../include/asio/detail/conditionally_enabled_event.hpp \
+ ../../../include/asio/detail/conditionally_enabled_mutex.hpp \
+ ../../../include/asio/detail/event.hpp \
+ ../../../include/asio/detail/posix_event.hpp \
+ ../../../include/asio/detail/assert.hpp \
+ ../../../include/asio/detail/impl/posix_event.ipp \
+ ../../../include/asio/detail/null_event.hpp \
+ ../../../include/asio/detail/impl/null_event.ipp \
+ ../../../include/asio/detail/reactor_fwd.hpp \
+ ../../../include/asio/detail/impl/scheduler.ipp \
+ ../../../include/asio/detail/concurrency_hint.hpp \
+ ../../../include/asio/detail/limits.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/limits.hpp \
+ /usr/aarch64-linux-gnu/include/c++/5/limits \
+ ../../../include/asio/detail/reactor.hpp \
+ ../../../include/asio/detail/epoll_reactor.hpp \
+ ../../../include/asio/detail/object_pool.hpp \
+ ../../../include/asio/detail/reactor_op.hpp \
+ ../../../include/asio/detail/operation.hpp \
+ ../../../include/asio/detail/select_interrupter.hpp \
+ ../../../include/asio/detail/eventfd_select_interrupter.hpp \
+ ../../../include/asio/detail/impl/eventfd_select_interrupter.ipp \
+ /usr/aarch64-linux-gnu/include/sys/eventfd.h \
+ /usr/aarch64-linux-gnu/include/bits/eventfd.h \
+ ../../../include/asio/detail/cstdint.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/cstdint.hpp \
+ ../../../include/asio/detail/timer_queue_base.hpp \
+ ../../../include/asio/detail/timer_queue_set.hpp \
+ ../../../include/asio/detail/impl/timer_queue_set.ipp \
+ ../../../include/asio/detail/wait_op.hpp \
+ /usr/aarch64-linux-gnu/include/sys/timerfd.h \
+ /usr/aarch64-linux-gnu/include/bits/timerfd.h \
+ ../../../include/asio/detail/impl/epoll_reactor.hpp \
+ ../../../include/asio/detail/impl/epoll_reactor.ipp \
+ /usr/aarch64-linux-gnu/include/sys/epoll.h \
+ /usr/aarch64-linux-gnu/include/bits/epoll.h \
+ ../../../include/asio/detail/scheduler_thread_info.hpp \
+ ../../../include/asio/detail/thread_group.hpp \
+ ../../../include/asio/detail/thread.hpp \
+ ../../../include/asio/detail/posix_thread.hpp \
+ ../../../include/asio/detail/impl/posix_thread.ipp \
+ ../../../include/asio/impl/system_context.hpp \
+ ../../../include/asio/impl/system_context.ipp \
+ ../../../include/asio/async_result.hpp \
+ ../../../include/asio/basic_datagram_socket.hpp \
+ ../../../include/asio/basic_socket.hpp \
+ ../../../include/asio/basic_io_object.hpp \
+ ../../../include/asio/io_context.hpp \
+ ../../../include/asio/detail/wrapped_handler.hpp \
+ ../../../include/asio/detail/bind_handler.hpp \
+ ../../../include/asio/associated_executor.hpp \
+ ../../../include/asio/detail/handler_cont_helpers.hpp \
+ ../../../include/asio/handler_continuation_hook.hpp \
+ ../../../include/asio/detail/chrono.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/system_clocks.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/config.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/duration.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/detail/static_assert.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/logical.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/or.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/use_preprocessed.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/bool.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/bool_fwd.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/adl_barrier.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/adl.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/msvc.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/intel.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/gcc.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/workaround.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/integral_c_tag.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/static_constant.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/nested_type_wknd.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/na_spec.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/lambda_fwd.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/void_fwd.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/na.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/na_fwd.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/ctps.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/lambda.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/ttp.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/int.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/int_fwd.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/nttp_decl.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/nttp.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/integral_wrapper.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/static_cast.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/lambda_arity_param.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/template_arity_fwd.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/arity.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/dtp.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/preprocessor/params.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/preprocessor.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/comma_if.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/repeat.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/inc.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/preprocessor/enum.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/preprocessor/def_params_tail.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/limits/arity.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/logical/and.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/logical/bitand.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/identity.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/facilities/identity.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/empty.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/arithmetic/add.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/control/while.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/list/fold_left.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/list/detail/fold_left.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/control/expr_iif.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/list/adt.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/detail/is_binary.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/detail/check.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/logical/compl.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/list/fold_right.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/list/detail/fold_right.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/list/reverse.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/control/detail/while.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/arithmetic/sub.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/eti.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/overload_resolution.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/lambda_support.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/include_preprocessed.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/compiler.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/stringize.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/preprocessed/gcc/or.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/and.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/preprocessed/gcc/and.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/not.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/ratio/ratio.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/ratio/config.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/ratio/detail/mpl/abs.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/integral_c.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/integral_c_fwd.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/integral.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/ratio/detail/mpl/sign.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/ratio/detail/mpl/gcd.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/largest_int.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/if.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/value_wknd.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/dependent_nttp.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/ratio/detail/mpl/lcm.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/integer_traits.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/ratio/ratio_fwd.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/ratio/detail/overflow_helpers.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/common_type.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/detail/common_type_impl.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/detail/common_arithmetic_type.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/detail/composite_pointer_type.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/copy_cv.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_volatile.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/add_volatile.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/detail/composite_member_pointer_type.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_union.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_member_pointer.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_unsigned.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_enum.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/detail/is_evenly_divisible_by.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/time_point.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/detail/system.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/clock_string.hpp \
+ /usr/aarch64-linux-gnu/include/c++/5/ctime \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/detail/inlined/chrono.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/chrono.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/detail/inlined/posix/chrono.hpp \
+ ../../../include/asio/impl/io_context.hpp \
+ ../../../include/asio/detail/completion_handler.hpp \
+ ../../../include/asio/detail/handler_work.hpp \
+ ../../../include/asio/impl/io_context.ipp ../../../include/asio/post.hpp \
+ ../../../include/asio/impl/post.hpp \
+ ../../../include/asio/detail/work_dispatcher.hpp \
+ ../../../include/asio/executor_work_guard.hpp \
+ ../../../include/asio/socket_base.hpp \
+ ../../../include/asio/detail/io_control.hpp \
+ ../../../include/asio/detail/socket_option.hpp \
+ ../../../include/asio/detail/reactive_socket_service.hpp \
+ ../../../include/asio/buffer.hpp \
+ ../../../include/asio/detail/array_fwd.hpp \
+ ../../../include/asio/detail/string_view.hpp \
+ ../../../include/asio/detail/is_buffer_sequence.hpp \
+ ../../../include/asio/detail/buffer_sequence_adapter.hpp \
+ ../../../include/asio/detail/impl/buffer_sequence_adapter.ipp \
+ ../../../include/asio/detail/reactive_null_buffers_op.hpp \
+ ../../../include/asio/detail/reactive_socket_accept_op.hpp \
+ ../../../include/asio/detail/socket_holder.hpp \
+ ../../../include/asio/detail/socket_ops.hpp \
+ ../../../include/asio/detail/impl/socket_ops.ipp \
+ /usr/aarch64-linux-gnu/include/c++/5/cstdio \
+ /usr/aarch64-linux-gnu/include/libio.h \
+ /usr/aarch64-linux-gnu/include/_G_config.h \
+ /usr/aarch64-linux-gnu/include/bits/sys_errlist.h \
+ /usr/aarch64-linux-gnu/include/bits/stdio.h \
+ /usr/aarch64-linux-gnu/include/bits/stdio2.h \
+ ../../../include/asio/detail/reactive_socket_connect_op.hpp \
+ ../../../include/asio/detail/reactive_socket_recvfrom_op.hpp \
+ ../../../include/asio/detail/reactive_socket_sendto_op.hpp \
+ ../../../include/asio/detail/reactive_socket_service_base.hpp \
+ ../../../include/asio/detail/reactive_socket_recv_op.hpp \
+ ../../../include/asio/detail/reactive_socket_recvmsg_op.hpp \
+ ../../../include/asio/detail/reactive_socket_send_op.hpp \
+ ../../../include/asio/detail/reactive_wait_op.hpp \
+ ../../../include/asio/detail/impl/reactive_socket_service_base.ipp \
+ ../../../include/asio/basic_deadline_timer.hpp \
+ ../../../include/asio/time_traits.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/posix_time/posix_time_types.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/time_clock.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/c_time.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/compiler_config.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/locale_config.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/auto_link.hpp \
+ /usr/aarch64-linux-gnu/include/sys/time.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/microsec_time_clock.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/posix_time/ptime.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/posix_time/posix_time_system.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/posix_time/posix_time_config.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/config/no_tr1/cmath.hpp \
+ /usr/aarch64-linux-gnu/include/c++/5/cmath \
+ /usr/aarch64-linux-gnu/include/math.h \
+ /usr/aarch64-linux-gnu/include/bits/math-vector.h \
+ /usr/aarch64-linux-gnu/include/bits/libm-simd-decl-stubs.h \
+ /usr/aarch64-linux-gnu/include/bits/huge_val.h \
+ /usr/aarch64-linux-gnu/include/bits/huge_valf.h \
+ /usr/aarch64-linux-gnu/include/bits/huge_vall.h \
+ /usr/aarch64-linux-gnu/include/bits/inf.h \
+ /usr/aarch64-linux-gnu/include/bits/nan.h \
+ /usr/aarch64-linux-gnu/include/bits/mathdef.h \
+ /usr/aarch64-linux-gnu/include/bits/mathcalls.h \
+ /usr/aarch64-linux-gnu/include/bits/mathinline.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/time_duration.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/special_defs.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/time_defs.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/operators.hpp \
+ /usr/aarch64-linux-gnu/include/c++/5/iterator \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stream_iterator.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/time_resolution_traits.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/int_adapter.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/gregorian_types.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/date.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/year_month_day.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/period.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/greg_calendar.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/greg_weekday.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/constrained_value.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/date_defs.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/greg_day_of_year.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian_calendar.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian_calendar.ipp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/greg_ymd.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/greg_day.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/greg_year.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/greg_month.hpp \
+ /usr/aarch64-linux-gnu/include/c++/5/map \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_tree.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_map.h \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/stl_multimap.h \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/greg_duration.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/date_duration.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/date_duration_types.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/greg_duration_types.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/greg_date.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/adjust_functors.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/wrapping_int.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/date_generators.hpp \
+ /usr/aarch64-linux-gnu/include/c++/5/sstream \
+ /usr/aarch64-linux-gnu/include/c++/5/bits/sstream.tcc \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/date_clock_device.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/date_iterator.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/time_system_split.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/time_system_counted.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/time.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/posix_time/date_duration_operators.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/posix_time/posix_time_duration.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/cast.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/type.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/converter.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/conversion_traits.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/conversion_traits.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/meta.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/eval_if.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/equal_to.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/comparison_op.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/numeric_op.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/numeric_cast.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/apply_wrap.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/has_apply.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/has_xxx.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/type_wrapper.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/yes_no.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/arrays.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/has_xxx.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/msvc_typename.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/has_apply.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/msvc_never_true.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/tag.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/void.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/has_tag.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/numeric_cast_utils.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/forwarding.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/msvc_eti_base.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/is_msvc_eti_arg.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/preprocessed/gcc/equal_to.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/identity.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/int_float_mixture.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/int_float_mixture_enum.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/sign_mixture.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/sign_mixture_enum.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/udt_builtin_mixture.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/udt_builtin_mixture_enum.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/is_subranged.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/multiplies.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/times.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/arithmetic_op.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/preprocessed/gcc/times.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/preprocessor/default_params.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/less.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/preprocessed/gcc/less.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/converter_policies.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/converter.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/bounds.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/bounds.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/numeric_cast_traits.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/numeric_cast_traits.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/posix_time/time_period.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/time_iterator.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/dst_rules.hpp \
+ ../../../include/asio/detail/deadline_timer_service.hpp \
+ ../../../include/asio/detail/timer_queue.hpp \
+ ../../../include/asio/detail/date_time_fwd.hpp \
+ ../../../include/asio/detail/timer_queue_ptime.hpp \
+ ../../../include/asio/detail/impl/timer_queue_ptime.ipp \
+ ../../../include/asio/detail/timer_scheduler.hpp \
+ ../../../include/asio/detail/timer_scheduler_fwd.hpp \
+ ../../../include/asio/detail/wait_handler.hpp \
+ ../../../include/asio/basic_io_object.hpp \
+ ../../../include/asio/basic_raw_socket.hpp \
+ ../../../include/asio/basic_seq_packet_socket.hpp \
+ ../../../include/asio/basic_serial_port.hpp \
+ ../../../include/asio/basic_signal_set.hpp \
+ ../../../include/asio/basic_socket_acceptor.hpp \
+ ../../../include/asio/basic_socket_iostream.hpp \
+ ../../../include/asio/basic_socket_streambuf.hpp \
+ ../../../include/asio/basic_stream_socket.hpp \
+ ../../../include/asio/steady_timer.hpp \
+ ../../../include/asio/basic_waitable_timer.hpp \
+ ../../../include/asio/wait_traits.hpp \
+ ../../../include/asio/detail/chrono_time_traits.hpp \
+ ../../../include/asio/basic_socket_streambuf.hpp \
+ ../../../include/asio/basic_stream_socket.hpp \
+ ../../../include/asio/basic_streambuf.hpp \
+ ../../../include/asio/basic_streambuf_fwd.hpp \
+ ../../../include/asio/basic_waitable_timer.hpp \
+ ../../../include/asio/bind_executor.hpp \
+ ../../../include/asio/uses_executor.hpp ../../../include/asio/buffer.hpp \
+ ../../../include/asio/buffered_read_stream_fwd.hpp \
+ ../../../include/asio/buffered_read_stream.hpp \
+ ../../../include/asio/buffered_read_stream_fwd.hpp \
+ ../../../include/asio/detail/buffer_resize_guard.hpp \
+ ../../../include/asio/detail/buffered_stream_storage.hpp \
+ ../../../include/asio/impl/buffered_read_stream.hpp \
+ ../../../include/asio/buffered_stream_fwd.hpp \
+ ../../../include/asio/buffered_stream.hpp \
+ ../../../include/asio/buffered_read_stream.hpp \
+ ../../../include/asio/buffered_write_stream.hpp \
+ ../../../include/asio/buffered_write_stream_fwd.hpp \
+ ../../../include/asio/completion_condition.hpp \
+ ../../../include/asio/write.hpp ../../../include/asio/impl/write.hpp \
+ ../../../include/asio/detail/base_from_completion_cond.hpp \
+ ../../../include/asio/detail/consuming_buffers.hpp \
+ ../../../include/asio/detail/dependent_type.hpp \
+ ../../../include/asio/impl/buffered_write_stream.hpp \
+ ../../../include/asio/buffered_stream_fwd.hpp \
+ ../../../include/asio/buffered_write_stream_fwd.hpp \
+ ../../../include/asio/buffered_write_stream.hpp \
+ ../../../include/asio/buffers_iterator.hpp \
+ ../../../include/asio/completion_condition.hpp \
+ ../../../include/asio/connect.hpp ../../../include/asio/impl/connect.hpp \
+ ../../../include/asio/coroutine.hpp \
+ ../../../include/asio/datagram_socket_service.hpp \
+ ../../../include/asio/deadline_timer_service.hpp \
+ ../../../include/asio/deadline_timer.hpp \
+ ../../../include/asio/basic_deadline_timer.hpp \
+ ../../../include/asio/defer.hpp ../../../include/asio/impl/defer.hpp \
+ ../../../include/asio/dispatch.hpp \
+ ../../../include/asio/impl/dispatch.hpp ../../../include/asio/error.hpp \
+ ../../../include/asio/error_code.hpp \
+ ../../../include/asio/execution_context.hpp \
+ ../../../include/asio/executor.hpp \
+ ../../../include/asio/detail/cstddef.hpp \
+ ../../../include/asio/impl/executor.hpp \
+ ../../../include/asio/executor.hpp \
+ ../../../include/asio/impl/executor.ipp \
+ ../../../include/asio/executor_work_guard.hpp \
+ ../../../include/asio/generic/basic_endpoint.hpp \
+ ../../../include/asio/generic/detail/endpoint.hpp \
+ ../../../include/asio/generic/detail/impl/endpoint.ipp \
+ ../../../include/asio/generic/datagram_protocol.hpp \
+ ../../../include/asio/basic_datagram_socket.hpp \
+ ../../../include/asio/generic/basic_endpoint.hpp \
+ ../../../include/asio/generic/raw_protocol.hpp \
+ ../../../include/asio/basic_raw_socket.hpp \
+ ../../../include/asio/generic/seq_packet_protocol.hpp \
+ ../../../include/asio/basic_seq_packet_socket.hpp \
+ ../../../include/asio/generic/stream_protocol.hpp \
+ ../../../include/asio/basic_socket_iostream.hpp \
+ ../../../include/asio/handler_alloc_hook.hpp \
+ ../../../include/asio/handler_continuation_hook.hpp \
+ ../../../include/asio/handler_invoke_hook.hpp \
+ ../../../include/asio/handler_type.hpp \
+ ../../../include/asio/high_resolution_timer.hpp \
+ ../../../include/asio/io_context.hpp \
+ ../../../include/asio/io_context_strand.hpp \
+ ../../../include/asio/detail/strand_service.hpp \
+ ../../../include/asio/detail/impl/strand_service.hpp \
+ ../../../include/asio/detail/impl/strand_service.ipp \
+ ../../../include/asio/io_service.hpp \
+ ../../../include/asio/io_service_strand.hpp \
+ ../../../include/asio/io_context_strand.hpp \
+ ../../../include/asio/ip/address.hpp \
+ ../../../include/asio/ip/address_v4.hpp \
+ ../../../include/asio/detail/array.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/array.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/swap.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/core/swap.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/detail/iterator.hpp \
+ ../../../include/asio/detail/winsock_init.hpp \
+ ../../../include/asio/ip/impl/address_v4.hpp \
+ ../../../include/asio/ip/impl/address_v4.ipp \
+ ../../../include/asio/ip/address_v6.hpp \
+ ../../../include/asio/ip/impl/address_v6.hpp \
+ ../../../include/asio/ip/impl/address_v6.ipp \
+ ../../../include/asio/ip/bad_address_cast.hpp \
+ ../../../include/asio/ip/impl/address.hpp \
+ ../../../include/asio/ip/impl/address.ipp \
+ ../../../include/asio/ip/address.hpp \
+ ../../../include/asio/ip/address_v4.hpp \
+ ../../../include/asio/ip/address_v4_iterator.hpp \
+ ../../../include/asio/ip/address_v4_range.hpp \
+ ../../../include/asio/ip/address_v4_iterator.hpp \
+ ../../../include/asio/ip/address_v6.hpp \
+ ../../../include/asio/ip/address_v6_iterator.hpp \
+ ../../../include/asio/ip/address_v6_range.hpp \
+ ../../../include/asio/ip/address_v6_iterator.hpp \
+ ../../../include/asio/ip/bad_address_cast.hpp \
+ ../../../include/asio/ip/basic_endpoint.hpp \
+ ../../../include/asio/ip/detail/endpoint.hpp \
+ ../../../include/asio/ip/detail/impl/endpoint.ipp \
+ ../../../include/asio/ip/impl/basic_endpoint.hpp \
+ ../../../include/asio/ip/basic_resolver.hpp \
+ ../../../include/asio/ip/basic_resolver_iterator.hpp \
+ ../../../include/asio/ip/basic_resolver_entry.hpp \
+ ../../../include/asio/ip/basic_resolver_query.hpp \
+ ../../../include/asio/ip/resolver_query_base.hpp \
+ ../../../include/asio/ip/resolver_base.hpp \
+ ../../../include/asio/ip/basic_resolver_results.hpp \
+ ../../../include/asio/detail/resolver_service.hpp \
+ ../../../include/asio/detail/resolve_endpoint_op.hpp \
+ ../../../include/asio/detail/resolve_op.hpp \
+ ../../../include/asio/detail/resolve_query_op.hpp \
+ ../../../include/asio/detail/resolver_service_base.hpp \
+ ../../../include/asio/detail/impl/resolver_service_base.ipp \
+ ../../../include/asio/ip/basic_resolver_entry.hpp \
+ ../../../include/asio/ip/basic_resolver_iterator.hpp \
+ ../../../include/asio/ip/basic_resolver_query.hpp \
+ ../../../include/asio/ip/host_name.hpp \
+ ../../../include/asio/ip/impl/host_name.ipp \
+ ../../../include/asio/ip/host_name.hpp ../../../include/asio/ip/icmp.hpp \
+ ../../../include/asio/ip/basic_endpoint.hpp \
+ ../../../include/asio/ip/basic_resolver.hpp \
+ ../../../include/asio/ip/multicast.hpp \
+ ../../../include/asio/ip/detail/socket_option.hpp \
+ ../../../include/asio/ip/resolver_base.hpp \
+ ../../../include/asio/ip/resolver_query_base.hpp \
+ ../../../include/asio/ip/resolver_service.hpp \
+ ../../../include/asio/ip/tcp.hpp \
+ ../../../include/asio/basic_socket_acceptor.hpp \
+ ../../../include/asio/ip/udp.hpp ../../../include/asio/ip/unicast.hpp \
+ ../../../include/asio/ip/v6_only.hpp \
+ ../../../include/asio/is_executor.hpp \
+ ../../../include/asio/is_read_buffered.hpp \
+ ../../../include/asio/is_write_buffered.hpp \
+ ../../../include/asio/local/basic_endpoint.hpp \
+ ../../../include/asio/local/detail/endpoint.hpp \
+ ../../../include/asio/local/detail/impl/endpoint.ipp \
+ ../../../include/asio/local/connect_pair.hpp \
+ ../../../include/asio/local/basic_endpoint.hpp \
+ ../../../include/asio/local/datagram_protocol.hpp \
+ ../../../include/asio/local/stream_protocol.hpp \
+ ../../../include/asio/packaged_task.hpp \
+ ../../../include/asio/detail/future.hpp \
+ ../../../include/asio/placeholders.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/arg.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/is_placeholder.hpp \
+ ../../../include/asio/posix/basic_descriptor.hpp \
+ ../../../include/asio/posix/basic_stream_descriptor.hpp \
+ ../../../include/asio/posix/descriptor.hpp \
+ ../../../include/asio/detail/reactive_descriptor_service.hpp \
+ ../../../include/asio/detail/descriptor_ops.hpp \
+ ../../../include/asio/detail/impl/descriptor_ops.ipp \
+ ../../../include/asio/detail/descriptor_read_op.hpp \
+ ../../../include/asio/detail/descriptor_write_op.hpp \
+ ../../../include/asio/posix/descriptor_base.hpp \
+ ../../../include/asio/detail/impl/reactive_descriptor_service.ipp \
+ ../../../include/asio/posix/descriptor_base.hpp \
+ ../../../include/asio/posix/stream_descriptor.hpp \
+ ../../../include/asio/posix/descriptor.hpp \
+ ../../../include/asio/posix/stream_descriptor_service.hpp \
+ ../../../include/asio/post.hpp \
+ ../../../include/asio/raw_socket_service.hpp \
+ ../../../include/asio/read.hpp ../../../include/asio/impl/read.hpp \
+ ../../../include/asio/read_at.hpp ../../../include/asio/impl/read_at.hpp \
+ ../../../include/asio/read_until.hpp \
+ ../../../include/asio/detail/regex_fwd.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/regex_fwd.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/regex/config.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/regex/user.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/regex/config/cwchar.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/regex/v4/regex_fwd.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/regex/v4/match_flags.hpp \
+ ../../../include/asio/impl/read_until.hpp \
+ ../../../include/asio/buffers_iterator.hpp \
+ ../../../include/asio/seq_packet_socket_service.hpp \
+ ../../../include/asio/serial_port.hpp \
+ ../../../include/asio/serial_port_base.hpp \
+ /usr/aarch64-linux-gnu/include/termios.h \
+ /usr/aarch64-linux-gnu/include/bits/termios.h \
+ ../../../include/asio/impl/serial_port_base.hpp \
+ ../../../include/asio/impl/serial_port_base.ipp \
+ ../../../include/asio/detail/reactive_serial_port_service.hpp \
+ ../../../include/asio/detail/impl/reactive_serial_port_service.ipp \
+ ../../../include/asio/serial_port_base.hpp \
+ ../../../include/asio/serial_port_service.hpp \
+ ../../../include/asio/signal_set.hpp \
+ ../../../include/asio/detail/signal_set_service.hpp \
+ /usr/aarch64-linux-gnu/include/signal.h \
+ /usr/aarch64-linux-gnu/include/bits/signum.h \
+ /usr/aarch64-linux-gnu/include/bits/sigaction.h \
+ /usr/aarch64-linux-gnu/include/bits/sigcontext.h \
+ /usr/aarch64-linux-gnu/include/asm/sigcontext.h \
+ /usr/aarch64-linux-gnu/include/linux/types.h \
+ /usr/aarch64-linux-gnu/include/asm/types.h \
+ /usr/aarch64-linux-gnu/include/asm-generic/types.h \
+ /usr/aarch64-linux-gnu/include/asm-generic/int-ll64.h \
+ /usr/aarch64-linux-gnu/include/asm/bitsperlong.h \
+ /usr/aarch64-linux-gnu/include/asm-generic/bitsperlong.h \
+ /usr/aarch64-linux-gnu/include/linux/posix_types.h \
+ /usr/aarch64-linux-gnu/include/linux/stddef.h \
+ /usr/aarch64-linux-gnu/include/asm/posix_types.h \
+ /usr/aarch64-linux-gnu/include/asm-generic/posix_types.h \
+ /usr/aarch64-linux-gnu/include/bits/sigstack.h \
+ /usr/aarch64-linux-gnu/include/sys/ucontext.h \
+ /usr/aarch64-linux-gnu/include/sys/procfs.h \
+ /usr/aarch64-linux-gnu/include/sys/user.h \
+ /usr/aarch64-linux-gnu/include/bits/sigthread.h \
+ ../../../include/asio/detail/signal_handler.hpp \
+ ../../../include/asio/detail/signal_op.hpp \
+ ../../../include/asio/detail/impl/signal_set_service.ipp \
+ ../../../include/asio/detail/signal_blocker.hpp \
+ ../../../include/asio/detail/posix_signal_blocker.hpp \
+ /usr/aarch64-linux-gnu/include/c++/5/csignal \
+ ../../../include/asio/detail/static_mutex.hpp \
+ ../../../include/asio/detail/posix_static_mutex.hpp \
+ ../../../include/asio/signal_set_service.hpp \
+ ../../../include/asio/socket_acceptor_service.hpp \
+ ../../../include/asio/socket_base.hpp \
+ ../../../include/asio/steady_timer.hpp ../../../include/asio/strand.hpp \
+ ../../../include/asio/detail/strand_executor_service.hpp \
+ ../../../include/asio/detail/impl/strand_executor_service.hpp \
+ ../../../include/asio/detail/impl/strand_executor_service.ipp \
+ ../../../include/asio/stream_socket_service.hpp \
+ ../../../include/asio/streambuf.hpp \
+ ../../../include/asio/basic_streambuf.hpp \
+ ../../../include/asio/system_context.hpp \
+ ../../../include/asio/system_error.hpp \
+ ../../../include/asio/system_executor.hpp \
+ ../../../include/asio/system_timer.hpp ../../../include/asio/thread.hpp \
+ ../../../include/asio/thread_pool.hpp \
+ ../../../include/asio/impl/thread_pool.hpp \
+ ../../../include/asio/impl/thread_pool.ipp \
+ ../../../include/asio/thread_pool.hpp \
+ ../../../include/asio/time_traits.hpp \
+ ../../../include/asio/use_future.hpp \
+ ../../../include/asio/uses_executor.hpp \
+ ../../../include/asio/version.hpp ../../../include/asio/wait_traits.hpp \
+ ../../../include/asio/waitable_timer_service.hpp \
+ ../../../include/asio/windows/basic_handle.hpp \
+ ../../../include/asio/windows/basic_object_handle.hpp \
+ ../../../include/asio/windows/basic_random_access_handle.hpp \
+ ../../../include/asio/windows/basic_stream_handle.hpp \
+ ../../../include/asio/windows/object_handle.hpp \
+ ../../../include/asio/windows/object_handle_service.hpp \
+ ../../../include/asio/windows/overlapped_handle.hpp \
+ ../../../include/asio/windows/overlapped_ptr.hpp \
+ ../../../include/asio/windows/random_access_handle.hpp \
+ ../../../include/asio/windows/overlapped_handle.hpp \
+ ../../../include/asio/windows/random_access_handle_service.hpp \
+ ../../../include/asio/windows/stream_handle.hpp \
+ ../../../include/asio/windows/stream_handle_service.hpp \
+ ../../../include/asio/write.hpp ../../../include/asio/write_at.hpp \
+ ../../../include/asio/impl/write_at.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/bind.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/bind.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/ref.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/core/ref.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/mem_fn.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/mem_fn.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/get_pointer.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/mem_fn_template.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/mem_fn_cc.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/visit_each.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/core/is_same.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/storage.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/bind_template.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/bind_cc.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/bind_mf_cc.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/bind_mf2_cc.hpp \
+ /home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/placeholders.hpp
+
+/usr/aarch64-linux-gnu/include/stdc-predef.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/iostream:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/c++config.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/os_defines.h:
+
+/usr/aarch64-linux-gnu/include/features.h:
+
+/usr/aarch64-linux-gnu/include/sys/cdefs.h:
+
+/usr/aarch64-linux-gnu/include/bits/wordsize.h:
+
+/usr/aarch64-linux-gnu/include/gnu/stubs.h:
+
+/usr/aarch64-linux-gnu/include/gnu/stubs-lp64.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/cpu_defines.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/ostream:
+
+/usr/aarch64-linux-gnu/include/c++/5/ios:
+
+/usr/aarch64-linux-gnu/include/c++/5/iosfwd:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stringfwd.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/memoryfwd.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/postypes.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/cwchar:
+
+/usr/aarch64-linux-gnu/include/wchar.h:
+
+/usr/aarch64-linux-gnu/include/stdio.h:
+
+/usr/lib/gcc-cross/aarch64-linux-gnu/5/include/stdarg.h:
+
+/usr/aarch64-linux-gnu/include/bits/wchar.h:
+
+/usr/lib/gcc-cross/aarch64-linux-gnu/5/include/stddef.h:
+
+/usr/aarch64-linux-gnu/include/xlocale.h:
+
+/usr/aarch64-linux-gnu/include/bits/wchar2.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/exception:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/atomic_lockfree_defines.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/char_traits.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_algobase.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/functexcept.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/exception_defines.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/cpp_type_traits.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/ext/type_traits.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/ext/numeric_traits.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_pair.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/move.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/concept_check.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_iterator_base_types.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_iterator_base_funcs.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/debug/debug.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_iterator.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/ptr_traits.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/predefined_ops.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/localefwd.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/c++locale.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/clocale:
+
+/usr/aarch64-linux-gnu/include/locale.h:
+
+/usr/aarch64-linux-gnu/include/bits/locale.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/cctype:
+
+/usr/aarch64-linux-gnu/include/ctype.h:
+
+/usr/aarch64-linux-gnu/include/bits/types.h:
+
+/usr/aarch64-linux-gnu/include/bits/typesizes.h:
+
+/usr/aarch64-linux-gnu/include/endian.h:
+
+/usr/aarch64-linux-gnu/include/bits/endian.h:
+
+/usr/aarch64-linux-gnu/include/bits/byteswap.h:
+
+/usr/aarch64-linux-gnu/include/bits/byteswap-16.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/ios_base.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/ext/atomicity.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/gthr.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/gthr-default.h:
+
+/usr/aarch64-linux-gnu/include/pthread.h:
+
+/usr/aarch64-linux-gnu/include/sched.h:
+
+/usr/aarch64-linux-gnu/include/time.h:
+
+/usr/aarch64-linux-gnu/include/bits/sched.h:
+
+/usr/aarch64-linux-gnu/include/bits/time.h:
+
+/usr/aarch64-linux-gnu/include/bits/timex.h:
+
+/usr/aarch64-linux-gnu/include/bits/pthreadtypes.h:
+
+/usr/aarch64-linux-gnu/include/bits/setjmp.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/atomic_word.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/locale_classes.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/string:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/allocator.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/c++allocator.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/ext/new_allocator.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/new:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/ostream_insert.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/cxxabi_forced.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_function.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/backward/binders.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/range_access.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/basic_string.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/ext/alloc_traits.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/basic_string.tcc:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/locale_classes.tcc:
+
+/usr/aarch64-linux-gnu/include/c++/5/stdexcept:
+
+/usr/aarch64-linux-gnu/include/c++/5/streambuf:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/streambuf.tcc:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/basic_ios.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/locale_facets.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/cwctype:
+
+/usr/aarch64-linux-gnu/include/wctype.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/ctype_base.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/streambuf_iterator.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/ctype_inline.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/locale_facets.tcc:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/basic_ios.tcc:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/ostream.tcc:
+
+/usr/aarch64-linux-gnu/include/c++/5/istream:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/istream.tcc:
+
+../../../include/asio.hpp:
+
+../../../include/asio/associated_allocator.hpp:
+
+../../../include/asio/detail/config.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/user.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/detail/select_compiler_config.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/compiler/gcc.hpp:
+
+/usr/aarch64-linux-gnu/include/c++/5/cstddef:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/detail/select_stdlib_config.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/stdlib/libstdcpp3.hpp:
+
+/usr/aarch64-linux-gnu/include/unistd.h:
+
+/usr/aarch64-linux-gnu/include/bits/posix_opt.h:
+
+/usr/aarch64-linux-gnu/include/bits/environments.h:
+
+/usr/aarch64-linux-gnu/include/bits/confname.h:
+
+/usr/aarch64-linux-gnu/include/getopt.h:
+
+/usr/aarch64-linux-gnu/include/bits/unistd.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/detail/select_platform_config.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/platform/linux.hpp:
+
+/usr/aarch64-linux-gnu/include/c++/5/cstdlib:
+
+/usr/aarch64-linux-gnu/include/stdlib.h:
+
+/usr/aarch64-linux-gnu/include/bits/waitflags.h:
+
+/usr/aarch64-linux-gnu/include/bits/waitstatus.h:
+
+/usr/aarch64-linux-gnu/include/sys/types.h:
+
+/usr/aarch64-linux-gnu/include/sys/select.h:
+
+/usr/aarch64-linux-gnu/include/bits/select.h:
+
+/usr/aarch64-linux-gnu/include/bits/sigset.h:
+
+/usr/aarch64-linux-gnu/include/bits/select2.h:
+
+/usr/aarch64-linux-gnu/include/sys/sysmacros.h:
+
+/usr/aarch64-linux-gnu/include/alloca.h:
+
+/usr/aarch64-linux-gnu/include/bits/stdlib-bsearch.h:
+
+/usr/aarch64-linux-gnu/include/bits/stdlib-float.h:
+
+/usr/aarch64-linux-gnu/include/bits/stdlib.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/detail/posix_features.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/detail/suffix.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/helper_macros.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/version.hpp:
+
+/usr/aarch64-linux-gnu/include/linux/version.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/memory:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_construct.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_uninitialized.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_tempbuf.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_raw_storage_iter.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/backward/auto_ptr.h:
+
+../../../include/asio/detail/type_traits.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/add_const.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/detail/config.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/workaround.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/conditional.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/decay.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_array.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/integral_constant.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/detail/workaround.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_function.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_reference.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_lvalue_reference.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_rvalue_reference.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/detail/is_function_ptr_helper.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/remove_bounds.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/remove_extent.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/add_pointer.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/remove_reference.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/remove_cv.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_base_of.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_base_and_derived.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/intrinsics.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_same.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_class.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_const.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_convertible.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_complete.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/declval.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/add_rvalue_reference.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_void.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/detail/yes_no_type.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/static_assert.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_arithmetic.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_integral.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_floating_point.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_abstract.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/add_lvalue_reference.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/add_reference.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/remove_pointer.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/utility/enable_if.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/core/enable_if.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/utility/result_of.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/cat.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/config/config.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/iteration/iterate.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/arithmetic/dec.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/arithmetic/inc.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/array/elem.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/array/data.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/tuple/elem.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/facilities/expand.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/facilities/overload.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/variadic/size.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/tuple/rem.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/tuple/detail/is_single_return.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/variadic/elem.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/array/size.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/slot/slot.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/slot/detail/def.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/repetition/enum_params.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/punctuation/comma_if.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/control/if.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/control/iif.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/logical/bool.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/facilities/empty.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/punctuation/comma.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/repetition/repeat.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/debug/error.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/detail/auto_rec.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/tuple/eat.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/repetition/enum_trailing_params.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/repetition/enum_binary_params.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/repetition/enum_shifted_params.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/facilities/intercept.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_pointer.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_member_function_pointer.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/type_identity.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/iteration/detail/iter/forward1.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/iteration/detail/bounds/lower1.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/slot/detail/shared.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/iteration/detail/bounds/upper1.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/utility/detail/result_of_iterate.hpp:
+
+../../../include/asio/detail/push_options.hpp:
+
+../../../include/asio/detail/pop_options.hpp:
+
+../../../include/asio/associated_executor.hpp:
+
+../../../include/asio/is_executor.hpp:
+
+../../../include/asio/detail/is_executor.hpp:
+
+../../../include/asio/system_executor.hpp:
+
+../../../include/asio/impl/system_executor.hpp:
+
+../../../include/asio/detail/executor_op.hpp:
+
+../../../include/asio/detail/fenced_block.hpp:
+
+../../../include/asio/detail/gcc_sync_fenced_block.hpp:
+
+../../../include/asio/detail/noncopyable.hpp:
+
+../../../include/asio/detail/handler_alloc_helpers.hpp:
+
+../../../include/asio/detail/memory.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/shared_ptr.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/shared_ptr.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/no_tr1/memory.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/assert.hpp:
+
+/usr/aarch64-linux-gnu/include/assert.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/checked_delete.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/core/checked_delete.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/throw_exception.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/exception/exception.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/current_function.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/shared_count.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/bad_weak_ptr.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/sp_counted_base.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/sp_has_sync.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/sp_counted_base_sync.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/detail/sp_typeinfo.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/core/typeinfo.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/core/demangle.hpp:
+
+/usr/aarch64-linux-gnu/include/c++/5/cxxabi.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/aarch64-linux-gnu/bits/cxxabi_tweaks.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/typeinfo:
+
+/usr/lib/gcc-cross/aarch64-linux-gnu/5/include-fixed/limits.h:
+
+/usr/lib/gcc-cross/aarch64-linux-gnu/5/include-fixed/syslimits.h:
+
+/usr/aarch64-linux-gnu/include/limits.h:
+
+/usr/aarch64-linux-gnu/include/bits/posix1_lim.h:
+
+/usr/aarch64-linux-gnu/include/bits/local_lim.h:
+
+/usr/aarch64-linux-gnu/include/linux/limits.h:
+
+/usr/aarch64-linux-gnu/include/bits/posix2_lim.h:
+
+/usr/aarch64-linux-gnu/include/bits/xopen_lim.h:
+
+/usr/aarch64-linux-gnu/include/bits/stdio_lim.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/sp_counted_impl.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/core/addressof.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/sp_disable_deprecated.hpp:
+
+/usr/aarch64-linux-gnu/include/c++/5/functional:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/sp_convertible.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/sp_nullptr_t.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/sp_noexcept.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/spinlock_pool.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/spinlock.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/spinlock_sync.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/yield_k.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/language.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/language/stdc.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/version_number.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/make.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/detail/test.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/language/stdcpp.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/language/objc.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/language/cuda.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/alpha.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/arm.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/blackfin.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/convex.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/ia64.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/m68k.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/mips.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/parisc.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/ppc.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/ptx.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/pyramid.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/rs6k.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/sparc.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/superh.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/sys370.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/sys390.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/x86.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/x86/32.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/x86/64.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/architecture/z.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/borland.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/clang.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/comeau.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/compaq.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/diab.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/digitalmars.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/dignus.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/edg.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/ekopath.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/gcc_xml.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/gcc.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/detail/comp_detected.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/greenhills.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/hp_acc.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/iar.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/ibm.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/intel.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/kai.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/llvm.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/metaware.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/metrowerks.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/microtec.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/mpw.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/nvcc.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/palm.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/pgi.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/sgi_mipspro.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/sunpro.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/tendra.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/visualc.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/compiler/watcom.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/c.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/c/_prefix.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/detail/_cassert.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/cassert:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/c/cloudabi.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/c/gnu.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/c/uc.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/c/vms.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/c/zos.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/_prefix.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/detail/_exception.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/cxx.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/dinkumware.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/libcomo.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/modena.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/msl.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/roguewave.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/sgi.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/stdcpp3.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/stlport.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/library/std/vacpp.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/aix.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/amigaos.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/android.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/beos.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/bsd.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/macos.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/ios.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/bsd/bsdi.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/bsd/dragonfly.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/bsd/free.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/bsd/open.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/bsd/net.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/cygwin.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/haiku.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/hpux.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/irix.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/linux.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/detail/os_detected.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/os400.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/qnxnto.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/solaris.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/unix.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/vms.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/os/windows.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/other.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/other/endian.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/cloudabi.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/mingw.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/mingw32.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/mingw64.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/windows_uwp.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/windows_desktop.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/windows_phone.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/windows_server.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/windows_store.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/windows_system.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/windows_runtime.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/platform/ios.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/hardware.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/hardware/simd.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/hardware/simd/x86.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/hardware/simd/x86/versions.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/hardware/simd/x86_amd.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/hardware/simd/x86_amd/versions.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/hardware/simd/arm.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/hardware/simd/arm/versions.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/hardware/simd/ppc.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/hardware/simd/ppc/versions.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/predef/version.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/algorithm:
+
+/usr/aarch64-linux-gnu/include/c++/5/utility:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_relops.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_algo.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/algorithmfwd.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_heap.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/operator_bool.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/local_sp_deleter.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/local_counted_base.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/weak_ptr.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/weak_ptr.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/utility/addressof.hpp:
+
+../../../include/asio/detail/recycling_allocator.hpp:
+
+../../../include/asio/detail/thread_context.hpp:
+
+/usr/aarch64-linux-gnu/include/c++/5/climits:
+
+../../../include/asio/detail/call_stack.hpp:
+
+../../../include/asio/detail/tss_ptr.hpp:
+
+../../../include/asio/detail/posix_tss_ptr.hpp:
+
+../../../include/asio/detail/impl/posix_tss_ptr.ipp:
+
+../../../include/asio/detail/throw_error.hpp:
+
+../../../include/asio/error_code.hpp:
+
+../../../include/asio/impl/error_code.ipp:
+
+/usr/aarch64-linux-gnu/include/c++/5/cerrno:
+
+/usr/aarch64-linux-gnu/include/errno.h:
+
+/usr/aarch64-linux-gnu/include/bits/errno.h:
+
+/usr/aarch64-linux-gnu/include/linux/errno.h:
+
+/usr/aarch64-linux-gnu/include/asm/errno.h:
+
+/usr/aarch64-linux-gnu/include/asm-generic/errno.h:
+
+/usr/aarch64-linux-gnu/include/asm-generic/errno-base.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/cstring:
+
+/usr/aarch64-linux-gnu/include/string.h:
+
+/usr/aarch64-linux-gnu/include/bits/string3.h:
+
+../../../include/asio/detail/local_free_on_block_exit.hpp:
+
+../../../include/asio/detail/socket_types.hpp:
+
+/usr/aarch64-linux-gnu/include/sys/ioctl.h:
+
+/usr/aarch64-linux-gnu/include/bits/ioctls.h:
+
+/usr/aarch64-linux-gnu/include/asm/ioctls.h:
+
+/usr/aarch64-linux-gnu/include/asm-generic/ioctls.h:
+
+/usr/aarch64-linux-gnu/include/linux/ioctl.h:
+
+/usr/aarch64-linux-gnu/include/asm/ioctl.h:
+
+/usr/aarch64-linux-gnu/include/asm-generic/ioctl.h:
+
+/usr/aarch64-linux-gnu/include/bits/ioctl-types.h:
+
+/usr/aarch64-linux-gnu/include/sys/ttydefaults.h:
+
+/usr/aarch64-linux-gnu/include/poll.h:
+
+/usr/aarch64-linux-gnu/include/sys/poll.h:
+
+/usr/aarch64-linux-gnu/include/bits/poll.h:
+
+/usr/aarch64-linux-gnu/include/bits/poll2.h:
+
+/usr/aarch64-linux-gnu/include/sys/stat.h:
+
+/usr/aarch64-linux-gnu/include/bits/stat.h:
+
+/usr/aarch64-linux-gnu/include/fcntl.h:
+
+/usr/aarch64-linux-gnu/include/bits/fcntl.h:
+
+/usr/aarch64-linux-gnu/include/bits/fcntl-linux.h:
+
+/usr/aarch64-linux-gnu/include/bits/uio.h:
+
+/usr/aarch64-linux-gnu/include/bits/fcntl2.h:
+
+/usr/aarch64-linux-gnu/include/sys/socket.h:
+
+/usr/aarch64-linux-gnu/include/sys/uio.h:
+
+/usr/aarch64-linux-gnu/include/bits/socket.h:
+
+/usr/aarch64-linux-gnu/include/bits/socket_type.h:
+
+/usr/aarch64-linux-gnu/include/bits/sockaddr.h:
+
+/usr/aarch64-linux-gnu/include/asm/socket.h:
+
+/usr/aarch64-linux-gnu/include/asm-generic/socket.h:
+
+/usr/aarch64-linux-gnu/include/asm/sockios.h:
+
+/usr/aarch64-linux-gnu/include/asm-generic/sockios.h:
+
+/usr/aarch64-linux-gnu/include/bits/socket2.h:
+
+/usr/aarch64-linux-gnu/include/sys/un.h:
+
+/usr/aarch64-linux-gnu/include/netinet/in.h:
+
+/usr/lib/gcc-cross/aarch64-linux-gnu/5/include/stdint.h:
+
+/usr/aarch64-linux-gnu/include/stdint.h:
+
+/usr/aarch64-linux-gnu/include/bits/in.h:
+
+/usr/aarch64-linux-gnu/include/netinet/tcp.h:
+
+/usr/aarch64-linux-gnu/include/arpa/inet.h:
+
+/usr/aarch64-linux-gnu/include/netdb.h:
+
+/usr/aarch64-linux-gnu/include/rpc/netdb.h:
+
+/usr/aarch64-linux-gnu/include/bits/siginfo.h:
+
+/usr/aarch64-linux-gnu/include/bits/netdb.h:
+
+/usr/aarch64-linux-gnu/include/net/if.h:
+
+../../../include/asio/detail/impl/throw_error.ipp:
+
+../../../include/asio/detail/throw_exception.hpp:
+
+../../../include/asio/system_error.hpp:
+
+../../../include/asio/detail/scoped_ptr.hpp:
+
+../../../include/asio/error.hpp:
+
+../../../include/asio/impl/error.ipp:
+
+../../../include/asio/detail/thread_info_base.hpp:
+
+../../../include/asio/associated_allocator.hpp:
+
+../../../include/asio/handler_alloc_hook.hpp:
+
+../../../include/asio/impl/handler_alloc_hook.ipp:
+
+../../../include/asio/detail/handler_invoke_helpers.hpp:
+
+../../../include/asio/handler_invoke_hook.hpp:
+
+../../../include/asio/detail/scheduler_operation.hpp:
+
+../../../include/asio/detail/handler_tracking.hpp:
+
+../../../include/asio/detail/impl/handler_tracking.ipp:
+
+../../../include/asio/detail/op_queue.hpp:
+
+../../../include/asio/detail/global.hpp:
+
+../../../include/asio/detail/posix_global.hpp:
+
+../../../include/asio/system_context.hpp:
+
+../../../include/asio/detail/scheduler.hpp:
+
+../../../include/asio/execution_context.hpp:
+
+../../../include/asio/detail/variadic_templates.hpp:
+
+../../../include/asio/impl/execution_context.hpp:
+
+../../../include/asio/detail/handler_type_requirements.hpp:
+
+../../../include/asio/async_result.hpp:
+
+../../../include/asio/handler_type.hpp:
+
+../../../include/asio/detail/service_registry.hpp:
+
+../../../include/asio/detail/mutex.hpp:
+
+../../../include/asio/detail/posix_mutex.hpp:
+
+../../../include/asio/detail/scoped_lock.hpp:
+
+../../../include/asio/detail/impl/posix_mutex.ipp:
+
+../../../include/asio/detail/impl/service_registry.hpp:
+
+../../../include/asio/detail/impl/service_registry.ipp:
+
+/usr/aarch64-linux-gnu/include/c++/5/vector:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_vector.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_bvector.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/vector.tcc:
+
+../../../include/asio/impl/execution_context.ipp:
+
+../../../include/asio/detail/atomic_count.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/detail/atomic_count.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/atomic_count.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/smart_ptr/detail/atomic_count_sync.hpp:
+
+../../../include/asio/detail/conditionally_enabled_event.hpp:
+
+../../../include/asio/detail/conditionally_enabled_mutex.hpp:
+
+../../../include/asio/detail/event.hpp:
+
+../../../include/asio/detail/posix_event.hpp:
+
+../../../include/asio/detail/assert.hpp:
+
+../../../include/asio/detail/impl/posix_event.ipp:
+
+../../../include/asio/detail/null_event.hpp:
+
+../../../include/asio/detail/impl/null_event.ipp:
+
+../../../include/asio/detail/reactor_fwd.hpp:
+
+../../../include/asio/detail/impl/scheduler.ipp:
+
+../../../include/asio/detail/concurrency_hint.hpp:
+
+../../../include/asio/detail/limits.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/limits.hpp:
+
+/usr/aarch64-linux-gnu/include/c++/5/limits:
+
+../../../include/asio/detail/reactor.hpp:
+
+../../../include/asio/detail/epoll_reactor.hpp:
+
+../../../include/asio/detail/object_pool.hpp:
+
+../../../include/asio/detail/reactor_op.hpp:
+
+../../../include/asio/detail/operation.hpp:
+
+../../../include/asio/detail/select_interrupter.hpp:
+
+../../../include/asio/detail/eventfd_select_interrupter.hpp:
+
+../../../include/asio/detail/impl/eventfd_select_interrupter.ipp:
+
+/usr/aarch64-linux-gnu/include/sys/eventfd.h:
+
+/usr/aarch64-linux-gnu/include/bits/eventfd.h:
+
+../../../include/asio/detail/cstdint.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/cstdint.hpp:
+
+../../../include/asio/detail/timer_queue_base.hpp:
+
+../../../include/asio/detail/timer_queue_set.hpp:
+
+../../../include/asio/detail/impl/timer_queue_set.ipp:
+
+../../../include/asio/detail/wait_op.hpp:
+
+/usr/aarch64-linux-gnu/include/sys/timerfd.h:
+
+/usr/aarch64-linux-gnu/include/bits/timerfd.h:
+
+../../../include/asio/detail/impl/epoll_reactor.hpp:
+
+../../../include/asio/detail/impl/epoll_reactor.ipp:
+
+/usr/aarch64-linux-gnu/include/sys/epoll.h:
+
+/usr/aarch64-linux-gnu/include/bits/epoll.h:
+
+../../../include/asio/detail/scheduler_thread_info.hpp:
+
+../../../include/asio/detail/thread_group.hpp:
+
+../../../include/asio/detail/thread.hpp:
+
+../../../include/asio/detail/posix_thread.hpp:
+
+../../../include/asio/detail/impl/posix_thread.ipp:
+
+../../../include/asio/impl/system_context.hpp:
+
+../../../include/asio/impl/system_context.ipp:
+
+../../../include/asio/async_result.hpp:
+
+../../../include/asio/basic_datagram_socket.hpp:
+
+../../../include/asio/basic_socket.hpp:
+
+../../../include/asio/basic_io_object.hpp:
+
+../../../include/asio/io_context.hpp:
+
+../../../include/asio/detail/wrapped_handler.hpp:
+
+../../../include/asio/detail/bind_handler.hpp:
+
+../../../include/asio/associated_executor.hpp:
+
+../../../include/asio/detail/handler_cont_helpers.hpp:
+
+../../../include/asio/handler_continuation_hook.hpp:
+
+../../../include/asio/detail/chrono.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/system_clocks.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/config.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/duration.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/detail/static_assert.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/logical.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/or.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/use_preprocessed.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/bool.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/bool_fwd.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/adl_barrier.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/adl.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/msvc.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/intel.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/gcc.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/workaround.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/integral_c_tag.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/static_constant.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/nested_type_wknd.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/na_spec.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/lambda_fwd.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/void_fwd.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/na.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/na_fwd.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/ctps.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/lambda.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/ttp.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/int.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/int_fwd.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/nttp_decl.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/nttp.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/integral_wrapper.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/static_cast.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/lambda_arity_param.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/template_arity_fwd.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/arity.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/dtp.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/preprocessor/params.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/preprocessor.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/comma_if.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/repeat.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/inc.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/preprocessor/enum.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/limits/arity.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/logical/and.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/logical/bitand.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/identity.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/facilities/identity.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/empty.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/arithmetic/add.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/control/while.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/list/fold_left.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/list/detail/fold_left.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/control/expr_iif.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/list/adt.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/detail/is_binary.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/detail/check.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/logical/compl.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/list/fold_right.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/list/detail/fold_right.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/list/reverse.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/control/detail/while.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/arithmetic/sub.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/eti.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/overload_resolution.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/lambda_support.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/include_preprocessed.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/compiler.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/preprocessor/stringize.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/preprocessed/gcc/or.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/and.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/preprocessed/gcc/and.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/not.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/ratio/ratio.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/ratio/config.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/ratio/detail/mpl/abs.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/integral_c.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/integral_c_fwd.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/integral.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/ratio/detail/mpl/sign.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/ratio/detail/mpl/gcd.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/largest_int.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/if.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/value_wknd.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/dependent_nttp.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/ratio/detail/mpl/lcm.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/integer_traits.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/ratio/ratio_fwd.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/ratio/detail/overflow_helpers.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/common_type.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/detail/common_type_impl.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/detail/common_arithmetic_type.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/detail/composite_pointer_type.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/copy_cv.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_volatile.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/add_volatile.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/detail/composite_member_pointer_type.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_union.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_member_pointer.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_unsigned.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type_traits/is_enum.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/detail/is_evenly_divisible_by.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/time_point.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/detail/system.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/clock_string.hpp:
+
+/usr/aarch64-linux-gnu/include/c++/5/ctime:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/detail/inlined/chrono.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/chrono.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/chrono/detail/inlined/posix/chrono.hpp:
+
+../../../include/asio/impl/io_context.hpp:
+
+../../../include/asio/detail/completion_handler.hpp:
+
+../../../include/asio/detail/handler_work.hpp:
+
+../../../include/asio/impl/io_context.ipp:
+
+../../../include/asio/post.hpp:
+
+../../../include/asio/impl/post.hpp:
+
+../../../include/asio/detail/work_dispatcher.hpp:
+
+../../../include/asio/executor_work_guard.hpp:
+
+../../../include/asio/socket_base.hpp:
+
+../../../include/asio/detail/io_control.hpp:
+
+../../../include/asio/detail/socket_option.hpp:
+
+../../../include/asio/detail/reactive_socket_service.hpp:
+
+../../../include/asio/buffer.hpp:
+
+../../../include/asio/detail/array_fwd.hpp:
+
+../../../include/asio/detail/string_view.hpp:
+
+../../../include/asio/detail/is_buffer_sequence.hpp:
+
+../../../include/asio/detail/buffer_sequence_adapter.hpp:
+
+../../../include/asio/detail/impl/buffer_sequence_adapter.ipp:
+
+../../../include/asio/detail/reactive_null_buffers_op.hpp:
+
+../../../include/asio/detail/reactive_socket_accept_op.hpp:
+
+../../../include/asio/detail/socket_holder.hpp:
+
+../../../include/asio/detail/socket_ops.hpp:
+
+../../../include/asio/detail/impl/socket_ops.ipp:
+
+/usr/aarch64-linux-gnu/include/c++/5/cstdio:
+
+/usr/aarch64-linux-gnu/include/libio.h:
+
+/usr/aarch64-linux-gnu/include/_G_config.h:
+
+/usr/aarch64-linux-gnu/include/bits/sys_errlist.h:
+
+/usr/aarch64-linux-gnu/include/bits/stdio.h:
+
+/usr/aarch64-linux-gnu/include/bits/stdio2.h:
+
+../../../include/asio/detail/reactive_socket_connect_op.hpp:
+
+../../../include/asio/detail/reactive_socket_recvfrom_op.hpp:
+
+../../../include/asio/detail/reactive_socket_sendto_op.hpp:
+
+../../../include/asio/detail/reactive_socket_service_base.hpp:
+
+../../../include/asio/detail/reactive_socket_recv_op.hpp:
+
+../../../include/asio/detail/reactive_socket_recvmsg_op.hpp:
+
+../../../include/asio/detail/reactive_socket_send_op.hpp:
+
+../../../include/asio/detail/reactive_wait_op.hpp:
+
+../../../include/asio/detail/impl/reactive_socket_service_base.ipp:
+
+../../../include/asio/basic_deadline_timer.hpp:
+
+../../../include/asio/time_traits.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/posix_time/posix_time_types.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/time_clock.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/c_time.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/compiler_config.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/locale_config.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/auto_link.hpp:
+
+/usr/aarch64-linux-gnu/include/sys/time.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/microsec_time_clock.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/posix_time/ptime.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/posix_time/posix_time_system.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/posix_time/posix_time_config.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/config/no_tr1/cmath.hpp:
+
+/usr/aarch64-linux-gnu/include/c++/5/cmath:
+
+/usr/aarch64-linux-gnu/include/math.h:
+
+/usr/aarch64-linux-gnu/include/bits/math-vector.h:
+
+/usr/aarch64-linux-gnu/include/bits/libm-simd-decl-stubs.h:
+
+/usr/aarch64-linux-gnu/include/bits/huge_val.h:
+
+/usr/aarch64-linux-gnu/include/bits/huge_valf.h:
+
+/usr/aarch64-linux-gnu/include/bits/huge_vall.h:
+
+/usr/aarch64-linux-gnu/include/bits/inf.h:
+
+/usr/aarch64-linux-gnu/include/bits/nan.h:
+
+/usr/aarch64-linux-gnu/include/bits/mathdef.h:
+
+/usr/aarch64-linux-gnu/include/bits/mathcalls.h:
+
+/usr/aarch64-linux-gnu/include/bits/mathinline.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/time_duration.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/special_defs.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/time_defs.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/operators.hpp:
+
+/usr/aarch64-linux-gnu/include/c++/5/iterator:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stream_iterator.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/time_resolution_traits.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/int_adapter.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/gregorian_types.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/date.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/year_month_day.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/period.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/greg_calendar.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/greg_weekday.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/constrained_value.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/date_defs.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/greg_day_of_year.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian_calendar.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian_calendar.ipp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/greg_ymd.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/greg_day.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/greg_year.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/greg_month.hpp:
+
+/usr/aarch64-linux-gnu/include/c++/5/map:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_tree.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_map.h:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/stl_multimap.h:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/greg_duration.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/date_duration.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/date_duration_types.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/greg_duration_types.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/gregorian/greg_date.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/adjust_functors.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/wrapping_int.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/date_generators.hpp:
+
+/usr/aarch64-linux-gnu/include/c++/5/sstream:
+
+/usr/aarch64-linux-gnu/include/c++/5/bits/sstream.tcc:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/date_clock_device.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/date_iterator.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/time_system_split.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/time_system_counted.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/time.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/posix_time/date_duration_operators.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/posix_time/posix_time_duration.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/cast.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/type.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/converter.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/conversion_traits.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/conversion_traits.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/meta.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/eval_if.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/equal_to.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/comparison_op.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/numeric_op.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/numeric_cast.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/apply_wrap.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/has_apply.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/has_xxx.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/type_wrapper.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/yes_no.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/arrays.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/has_xxx.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/msvc_typename.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/has_apply.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/msvc_never_true.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/tag.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/void.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/has_tag.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/numeric_cast_utils.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/config/forwarding.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/msvc_eti_base.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/is_msvc_eti_arg.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/preprocessed/gcc/equal_to.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/identity.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/int_float_mixture.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/int_float_mixture_enum.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/sign_mixture.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/sign_mixture_enum.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/udt_builtin_mixture.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/udt_builtin_mixture_enum.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/is_subranged.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/multiplies.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/times.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/arithmetic_op.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/preprocessed/gcc/times.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/preprocessor/default_params.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/less.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mpl/aux_/preprocessed/gcc/less.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/converter_policies.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/converter.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/bounds.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/bounds.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/numeric_cast_traits.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/numeric_cast_traits.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/posix_time/time_period.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/time_iterator.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/date_time/dst_rules.hpp:
+
+../../../include/asio/detail/deadline_timer_service.hpp:
+
+../../../include/asio/detail/timer_queue.hpp:
+
+../../../include/asio/detail/date_time_fwd.hpp:
+
+../../../include/asio/detail/timer_queue_ptime.hpp:
+
+../../../include/asio/detail/impl/timer_queue_ptime.ipp:
+
+../../../include/asio/detail/timer_scheduler.hpp:
+
+../../../include/asio/detail/timer_scheduler_fwd.hpp:
+
+../../../include/asio/detail/wait_handler.hpp:
+
+../../../include/asio/basic_io_object.hpp:
+
+../../../include/asio/basic_raw_socket.hpp:
+
+../../../include/asio/basic_seq_packet_socket.hpp:
+
+../../../include/asio/basic_serial_port.hpp:
+
+../../../include/asio/basic_signal_set.hpp:
+
+../../../include/asio/basic_socket_acceptor.hpp:
+
+../../../include/asio/basic_socket_iostream.hpp:
+
+../../../include/asio/basic_socket_streambuf.hpp:
+
+../../../include/asio/basic_stream_socket.hpp:
+
+../../../include/asio/steady_timer.hpp:
+
+../../../include/asio/basic_waitable_timer.hpp:
+
+../../../include/asio/wait_traits.hpp:
+
+../../../include/asio/detail/chrono_time_traits.hpp:
+
+../../../include/asio/basic_socket_streambuf.hpp:
+
+../../../include/asio/basic_stream_socket.hpp:
+
+../../../include/asio/basic_streambuf.hpp:
+
+../../../include/asio/basic_streambuf_fwd.hpp:
+
+../../../include/asio/basic_waitable_timer.hpp:
+
+../../../include/asio/bind_executor.hpp:
+
+../../../include/asio/uses_executor.hpp:
+
+../../../include/asio/buffer.hpp:
+
+../../../include/asio/buffered_read_stream_fwd.hpp:
+
+../../../include/asio/buffered_read_stream.hpp:
+
+../../../include/asio/buffered_read_stream_fwd.hpp:
+
+../../../include/asio/detail/buffer_resize_guard.hpp:
+
+../../../include/asio/detail/buffered_stream_storage.hpp:
+
+../../../include/asio/impl/buffered_read_stream.hpp:
+
+../../../include/asio/buffered_stream_fwd.hpp:
+
+../../../include/asio/buffered_stream.hpp:
+
+../../../include/asio/buffered_read_stream.hpp:
+
+../../../include/asio/buffered_write_stream.hpp:
+
+../../../include/asio/buffered_write_stream_fwd.hpp:
+
+../../../include/asio/completion_condition.hpp:
+
+../../../include/asio/write.hpp:
+
+../../../include/asio/impl/write.hpp:
+
+../../../include/asio/detail/base_from_completion_cond.hpp:
+
+../../../include/asio/detail/consuming_buffers.hpp:
+
+../../../include/asio/detail/dependent_type.hpp:
+
+../../../include/asio/impl/buffered_write_stream.hpp:
+
+../../../include/asio/buffered_stream_fwd.hpp:
+
+../../../include/asio/buffered_write_stream_fwd.hpp:
+
+../../../include/asio/buffered_write_stream.hpp:
+
+../../../include/asio/buffers_iterator.hpp:
+
+../../../include/asio/completion_condition.hpp:
+
+../../../include/asio/connect.hpp:
+
+../../../include/asio/impl/connect.hpp:
+
+../../../include/asio/coroutine.hpp:
+
+../../../include/asio/datagram_socket_service.hpp:
+
+../../../include/asio/deadline_timer_service.hpp:
+
+../../../include/asio/deadline_timer.hpp:
+
+../../../include/asio/basic_deadline_timer.hpp:
+
+../../../include/asio/defer.hpp:
+
+../../../include/asio/impl/defer.hpp:
+
+../../../include/asio/dispatch.hpp:
+
+../../../include/asio/impl/dispatch.hpp:
+
+../../../include/asio/error.hpp:
+
+../../../include/asio/error_code.hpp:
+
+../../../include/asio/execution_context.hpp:
+
+../../../include/asio/executor.hpp:
+
+../../../include/asio/detail/cstddef.hpp:
+
+../../../include/asio/impl/executor.hpp:
+
+../../../include/asio/executor.hpp:
+
+../../../include/asio/impl/executor.ipp:
+
+../../../include/asio/executor_work_guard.hpp:
+
+../../../include/asio/generic/basic_endpoint.hpp:
+
+../../../include/asio/generic/detail/endpoint.hpp:
+
+../../../include/asio/generic/detail/impl/endpoint.ipp:
+
+../../../include/asio/generic/datagram_protocol.hpp:
+
+../../../include/asio/basic_datagram_socket.hpp:
+
+../../../include/asio/generic/basic_endpoint.hpp:
+
+../../../include/asio/generic/raw_protocol.hpp:
+
+../../../include/asio/basic_raw_socket.hpp:
+
+../../../include/asio/generic/seq_packet_protocol.hpp:
+
+../../../include/asio/basic_seq_packet_socket.hpp:
+
+../../../include/asio/generic/stream_protocol.hpp:
+
+../../../include/asio/basic_socket_iostream.hpp:
+
+../../../include/asio/handler_alloc_hook.hpp:
+
+../../../include/asio/handler_continuation_hook.hpp:
+
+../../../include/asio/handler_invoke_hook.hpp:
+
+../../../include/asio/handler_type.hpp:
+
+../../../include/asio/high_resolution_timer.hpp:
+
+../../../include/asio/io_context.hpp:
+
+../../../include/asio/io_context_strand.hpp:
+
+../../../include/asio/detail/strand_service.hpp:
+
+../../../include/asio/detail/impl/strand_service.hpp:
+
+../../../include/asio/detail/impl/strand_service.ipp:
+
+../../../include/asio/io_service.hpp:
+
+../../../include/asio/io_service_strand.hpp:
+
+../../../include/asio/io_context_strand.hpp:
+
+../../../include/asio/ip/address.hpp:
+
+../../../include/asio/ip/address_v4.hpp:
+
+../../../include/asio/detail/array.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/array.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/swap.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/core/swap.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/detail/iterator.hpp:
+
+../../../include/asio/detail/winsock_init.hpp:
+
+../../../include/asio/ip/impl/address_v4.hpp:
+
+../../../include/asio/ip/impl/address_v4.ipp:
+
+../../../include/asio/ip/address_v6.hpp:
+
+../../../include/asio/ip/impl/address_v6.hpp:
+
+../../../include/asio/ip/impl/address_v6.ipp:
+
+../../../include/asio/ip/bad_address_cast.hpp:
+
+../../../include/asio/ip/impl/address.hpp:
+
+../../../include/asio/ip/impl/address.ipp:
+
+../../../include/asio/ip/address.hpp:
+
+../../../include/asio/ip/address_v4.hpp:
+
+../../../include/asio/ip/address_v4_iterator.hpp:
+
+../../../include/asio/ip/address_v4_range.hpp:
+
+../../../include/asio/ip/address_v4_iterator.hpp:
+
+../../../include/asio/ip/address_v6.hpp:
+
+../../../include/asio/ip/address_v6_iterator.hpp:
+
+../../../include/asio/ip/address_v6_range.hpp:
+
+../../../include/asio/ip/address_v6_iterator.hpp:
+
+../../../include/asio/ip/bad_address_cast.hpp:
+
+../../../include/asio/ip/basic_endpoint.hpp:
+
+../../../include/asio/ip/detail/endpoint.hpp:
+
+../../../include/asio/ip/detail/impl/endpoint.ipp:
+
+../../../include/asio/ip/impl/basic_endpoint.hpp:
+
+../../../include/asio/ip/basic_resolver.hpp:
+
+../../../include/asio/ip/basic_resolver_iterator.hpp:
+
+../../../include/asio/ip/basic_resolver_entry.hpp:
+
+../../../include/asio/ip/basic_resolver_query.hpp:
+
+../../../include/asio/ip/resolver_query_base.hpp:
+
+../../../include/asio/ip/resolver_base.hpp:
+
+../../../include/asio/ip/basic_resolver_results.hpp:
+
+../../../include/asio/detail/resolver_service.hpp:
+
+../../../include/asio/detail/resolve_endpoint_op.hpp:
+
+../../../include/asio/detail/resolve_op.hpp:
+
+../../../include/asio/detail/resolve_query_op.hpp:
+
+../../../include/asio/detail/resolver_service_base.hpp:
+
+../../../include/asio/detail/impl/resolver_service_base.ipp:
+
+../../../include/asio/ip/basic_resolver_entry.hpp:
+
+../../../include/asio/ip/basic_resolver_iterator.hpp:
+
+../../../include/asio/ip/basic_resolver_query.hpp:
+
+../../../include/asio/ip/host_name.hpp:
+
+../../../include/asio/ip/impl/host_name.ipp:
+
+../../../include/asio/ip/host_name.hpp:
+
+../../../include/asio/ip/icmp.hpp:
+
+../../../include/asio/ip/basic_endpoint.hpp:
+
+../../../include/asio/ip/basic_resolver.hpp:
+
+../../../include/asio/ip/multicast.hpp:
+
+../../../include/asio/ip/detail/socket_option.hpp:
+
+../../../include/asio/ip/resolver_base.hpp:
+
+../../../include/asio/ip/resolver_query_base.hpp:
+
+../../../include/asio/ip/resolver_service.hpp:
+
+../../../include/asio/ip/tcp.hpp:
+
+../../../include/asio/basic_socket_acceptor.hpp:
+
+../../../include/asio/ip/udp.hpp:
+
+../../../include/asio/ip/unicast.hpp:
+
+../../../include/asio/ip/v6_only.hpp:
+
+../../../include/asio/is_executor.hpp:
+
+../../../include/asio/is_read_buffered.hpp:
+
+../../../include/asio/is_write_buffered.hpp:
+
+../../../include/asio/local/basic_endpoint.hpp:
+
+../../../include/asio/local/detail/endpoint.hpp:
+
+../../../include/asio/local/detail/impl/endpoint.ipp:
+
+../../../include/asio/local/connect_pair.hpp:
+
+../../../include/asio/local/basic_endpoint.hpp:
+
+../../../include/asio/local/datagram_protocol.hpp:
+
+../../../include/asio/local/stream_protocol.hpp:
+
+../../../include/asio/packaged_task.hpp:
+
+../../../include/asio/detail/future.hpp:
+
+../../../include/asio/placeholders.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/arg.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/is_placeholder.hpp:
+
+../../../include/asio/posix/basic_descriptor.hpp:
+
+../../../include/asio/posix/basic_stream_descriptor.hpp:
+
+../../../include/asio/posix/descriptor.hpp:
+
+../../../include/asio/detail/reactive_descriptor_service.hpp:
+
+../../../include/asio/detail/descriptor_ops.hpp:
+
+../../../include/asio/detail/impl/descriptor_ops.ipp:
+
+../../../include/asio/detail/descriptor_read_op.hpp:
+
+../../../include/asio/detail/descriptor_write_op.hpp:
+
+../../../include/asio/posix/descriptor_base.hpp:
+
+../../../include/asio/detail/impl/reactive_descriptor_service.ipp:
+
+../../../include/asio/posix/descriptor_base.hpp:
+
+../../../include/asio/posix/stream_descriptor.hpp:
+
+../../../include/asio/posix/descriptor.hpp:
+
+../../../include/asio/posix/stream_descriptor_service.hpp:
+
+../../../include/asio/post.hpp:
+
+../../../include/asio/raw_socket_service.hpp:
+
+../../../include/asio/read.hpp:
+
+../../../include/asio/impl/read.hpp:
+
+../../../include/asio/read_at.hpp:
+
+../../../include/asio/impl/read_at.hpp:
+
+../../../include/asio/read_until.hpp:
+
+../../../include/asio/detail/regex_fwd.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/regex_fwd.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/regex/config.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/regex/user.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/regex/config/cwchar.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/regex/v4/regex_fwd.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/regex/v4/match_flags.hpp:
+
+../../../include/asio/impl/read_until.hpp:
+
+../../../include/asio/buffers_iterator.hpp:
+
+../../../include/asio/seq_packet_socket_service.hpp:
+
+../../../include/asio/serial_port.hpp:
+
+../../../include/asio/serial_port_base.hpp:
+
+/usr/aarch64-linux-gnu/include/termios.h:
+
+/usr/aarch64-linux-gnu/include/bits/termios.h:
+
+../../../include/asio/impl/serial_port_base.hpp:
+
+../../../include/asio/impl/serial_port_base.ipp:
+
+../../../include/asio/detail/reactive_serial_port_service.hpp:
+
+../../../include/asio/detail/impl/reactive_serial_port_service.ipp:
+
+../../../include/asio/serial_port_base.hpp:
+
+../../../include/asio/serial_port_service.hpp:
+
+../../../include/asio/signal_set.hpp:
+
+../../../include/asio/detail/signal_set_service.hpp:
+
+/usr/aarch64-linux-gnu/include/signal.h:
+
+/usr/aarch64-linux-gnu/include/bits/signum.h:
+
+/usr/aarch64-linux-gnu/include/bits/sigaction.h:
+
+/usr/aarch64-linux-gnu/include/bits/sigcontext.h:
+
+/usr/aarch64-linux-gnu/include/asm/sigcontext.h:
+
+/usr/aarch64-linux-gnu/include/linux/types.h:
+
+/usr/aarch64-linux-gnu/include/asm/types.h:
+
+/usr/aarch64-linux-gnu/include/asm-generic/types.h:
+
+/usr/aarch64-linux-gnu/include/asm-generic/int-ll64.h:
+
+/usr/aarch64-linux-gnu/include/asm/bitsperlong.h:
+
+/usr/aarch64-linux-gnu/include/asm-generic/bitsperlong.h:
+
+/usr/aarch64-linux-gnu/include/linux/posix_types.h:
+
+/usr/aarch64-linux-gnu/include/linux/stddef.h:
+
+/usr/aarch64-linux-gnu/include/asm/posix_types.h:
+
+/usr/aarch64-linux-gnu/include/asm-generic/posix_types.h:
+
+/usr/aarch64-linux-gnu/include/bits/sigstack.h:
+
+/usr/aarch64-linux-gnu/include/sys/ucontext.h:
+
+/usr/aarch64-linux-gnu/include/sys/procfs.h:
+
+/usr/aarch64-linux-gnu/include/sys/user.h:
+
+/usr/aarch64-linux-gnu/include/bits/sigthread.h:
+
+../../../include/asio/detail/signal_handler.hpp:
+
+../../../include/asio/detail/signal_op.hpp:
+
+../../../include/asio/detail/impl/signal_set_service.ipp:
+
+../../../include/asio/detail/signal_blocker.hpp:
+
+../../../include/asio/detail/posix_signal_blocker.hpp:
+
+/usr/aarch64-linux-gnu/include/c++/5/csignal:
+
+../../../include/asio/detail/static_mutex.hpp:
+
+../../../include/asio/detail/posix_static_mutex.hpp:
+
+../../../include/asio/signal_set_service.hpp:
+
+../../../include/asio/socket_acceptor_service.hpp:
+
+../../../include/asio/socket_base.hpp:
+
+../../../include/asio/steady_timer.hpp:
+
+../../../include/asio/strand.hpp:
+
+../../../include/asio/detail/strand_executor_service.hpp:
+
+../../../include/asio/detail/impl/strand_executor_service.hpp:
+
+../../../include/asio/detail/impl/strand_executor_service.ipp:
+
+../../../include/asio/stream_socket_service.hpp:
+
+../../../include/asio/streambuf.hpp:
+
+../../../include/asio/basic_streambuf.hpp:
+
+../../../include/asio/system_context.hpp:
+
+../../../include/asio/system_error.hpp:
+
+../../../include/asio/system_executor.hpp:
+
+../../../include/asio/system_timer.hpp:
+
+../../../include/asio/thread.hpp:
+
+../../../include/asio/thread_pool.hpp:
+
+../../../include/asio/impl/thread_pool.hpp:
+
+../../../include/asio/impl/thread_pool.ipp:
+
+../../../include/asio/thread_pool.hpp:
+
+../../../include/asio/time_traits.hpp:
+
+../../../include/asio/use_future.hpp:
+
+../../../include/asio/uses_executor.hpp:
+
+../../../include/asio/version.hpp:
+
+../../../include/asio/wait_traits.hpp:
+
+../../../include/asio/waitable_timer_service.hpp:
+
+../../../include/asio/windows/basic_handle.hpp:
+
+../../../include/asio/windows/basic_object_handle.hpp:
+
+../../../include/asio/windows/basic_random_access_handle.hpp:
+
+../../../include/asio/windows/basic_stream_handle.hpp:
+
+../../../include/asio/windows/object_handle.hpp:
+
+../../../include/asio/windows/object_handle_service.hpp:
+
+../../../include/asio/windows/overlapped_handle.hpp:
+
+../../../include/asio/windows/overlapped_ptr.hpp:
+
+../../../include/asio/windows/random_access_handle.hpp:
+
+../../../include/asio/windows/overlapped_handle.hpp:
+
+../../../include/asio/windows/random_access_handle_service.hpp:
+
+../../../include/asio/windows/stream_handle.hpp:
+
+../../../include/asio/windows/stream_handle_service.hpp:
+
+../../../include/asio/write.hpp:
+
+../../../include/asio/write_at.hpp:
+
+../../../include/asio/impl/write_at.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/bind.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/bind.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/ref.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/core/ref.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/mem_fn.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/mem_fn.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/get_pointer.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/mem_fn_template.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/mem_fn_cc.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/visit_each.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/core/is_same.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/storage.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/bind_template.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/bind_cc.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/bind_mf_cc.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/bind_mf2_cc.hpp:
+
+/home/allen/asio-1.12.2/../boost_1_68_0/boost/bind/placeholders.hpp:

@@ -1,0 +1,1 @@
+/usr/bin/aarch64-linux-gnu-g++      CMakeFiles/protoc.dir/home/allen/protobuf-3.6.1/src/google/protobuf/compiler/main.cc.o  -o protoc -rdynamic libprotoc.so.3.6.1 libprotobuf.so.3.6.1 -lpthread -Wl,-rpath,/home/allen/protobuf-3.6.1/cmake/build: 

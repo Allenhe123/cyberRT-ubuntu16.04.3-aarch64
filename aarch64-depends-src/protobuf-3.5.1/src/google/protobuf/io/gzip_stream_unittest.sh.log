@@ -1,0 +1,9 @@
++ TESTFILE=Makefile
++ cmp - Makefile
++ gunzip
++ ./zcgzip
+./zcgzip: line 117: /home/allen/protobuf-3.5.1/src/.libs/lt-zcgzip: cannot execute binary file: Exec format error
+./zcgzip: line 117: /home/allen/protobuf-3.5.1/src/.libs/lt-zcgzip: Success
+
+gzip: stdin: unexpected end of file
+cmp: EOF on -

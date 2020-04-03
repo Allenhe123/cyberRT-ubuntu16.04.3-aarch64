@@ -1,0 +1,1 @@
+/usr/bin/aarch64-linux-gnu-g++   -O3 -DNDEBUG   CMakeFiles/js_embed.dir/home/allen/protobuf-3.5.1/src/google/protobuf/compiler/js/embed.cc.o  -o js_embed -rdynamic 

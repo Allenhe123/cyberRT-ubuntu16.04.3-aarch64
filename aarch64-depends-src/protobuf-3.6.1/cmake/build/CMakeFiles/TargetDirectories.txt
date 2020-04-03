@@ -1,0 +1,10 @@
+/home/allen/protobuf-3.6.1/cmake/build/CMakeFiles/install.dir
+/home/allen/protobuf-3.6.1/cmake/build/CMakeFiles/list_install_components.dir
+/home/allen/protobuf-3.6.1/cmake/build/CMakeFiles/rebuild_cache.dir
+/home/allen/protobuf-3.6.1/cmake/build/CMakeFiles/install/local.dir
+/home/allen/protobuf-3.6.1/cmake/build/CMakeFiles/install/strip.dir
+/home/allen/protobuf-3.6.1/cmake/build/CMakeFiles/edit_cache.dir
+/home/allen/protobuf-3.6.1/cmake/build/CMakeFiles/libprotobuf-lite.dir
+/home/allen/protobuf-3.6.1/cmake/build/CMakeFiles/libprotoc.dir
+/home/allen/protobuf-3.6.1/cmake/build/CMakeFiles/libprotobuf.dir
+/home/allen/protobuf-3.6.1/cmake/build/CMakeFiles/protoc.dir

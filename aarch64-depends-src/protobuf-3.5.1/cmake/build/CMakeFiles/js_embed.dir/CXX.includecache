@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/allen/protobuf-3.5.1/src/google/protobuf/compiler/js/embed.cc
+cassert
+-
+cstdlib
+-
+fstream
+-
+iostream
+-
+string
+-
+
