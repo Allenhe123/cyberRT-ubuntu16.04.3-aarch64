@@ -167,7 +167,59 @@ make -j8 && sudo make install DESTDIR=/home/allen/aarch64-depends
 
 
 
+protobuf3.5.1 protobuf 3.6.1编译ubuntu16.04.3 aarch64版本天坑：（cyber需要移植到ascend310平台，cyber依赖于protobuf，所以需要先交叉编译出来aarch64版本的protobuf）：
+1。去https://github.com/protocolbuffers/protobuf/releases下载对应版本（protobuf-all-3.6.1.tar.gz或者protobuf-all-3.5.1.tar.gz）
+2。 解压后将protobuf-3.6.1目录复制一份命名：protobuf-3.6.1-x86
+3。一定要先编译x86版本的protobuf：cd protobuf-3.6.1-x86/cmake && mkdir build && cd build && cmake  .. && make -j8
+   应该可以很顺利的编译出x86版本。
+4。cd protobuf-3.6.1/cmake 然后复制aarch64_toolchainfile.cmake到cmake目录，将下面语句添加到CMakeLists.txt的projiect(...)语句下面。
+include(./aarch64_toolchainfile.cmake)
+5。mkdir build && cd  build && cmake .. && make -j8
+    这一步编译的时候肯定会出问题，因为编译的后半段会用到编译的前半段编译出的一个二进制文件(js_embed)来执行，但是二进制文件是aarch64版本，肯定无法执行！所以此时就要将protobuf-3.6.1-x86/cmake/build/下面的这个二进制文件复制到protobuf-3.6.1/cmake/build下面，接着继续编译。然后就成功了。
+6。然后sudo make install DESTDIR=/home/allen/aarch64-depends
+     会在/home/allen/aarch64-depends下面创建目录usr/local/{bin和include和lib}。lib/cmake/protobuf下面就包含了.cmake文件。
+     cd  /home/allen/aarch64-depends  && mkdir protobuf-3.6.1 然后将上面/home/allen/aarch64-depends下面创建目录usr/local/下面的内容都复制到
+     /home/allen/aarch64-depends/protobuf-3.6.1。
+7。然后编译cyber的时候：
+     cd cyber-ubuntu16.04-aarch64/cmake
+     vim Dependdencies.cmake 修改：
+set(Protobuf_ROOT /home/allen/aarch64-depends/protobuf-3.6.1/lib/cmake/protobuf)
+set(Protobuf_DIR /home/allen/aarch64-depends/protobuf-3.6.1/lib/cmake/protobuf)
+find_package(Protobuf REQUIRED CONFIG)
+message(STATUS "version: ${Protobuf_VERSION}")
+message(STATUS "###Found Protobuf: ${Protobuf_INCLUDE_DIRS} ${Protobuf_LIBRARIES}")
+include_directories(${PROTOBUF_INCLUDE_DIRS})
+link_directories(${PROTOBUF_LIBRARIES})
 
+8. cd   /home/allen/cyber-ubuntu16.04-aarch64/build &&  cmake .. && make -j8
+然后报错：Unknown CMake command  "PROTOBUF_GENERATE_CPP"
+同时###Found Protobuf: ${Protobuf_INCLUDE_DIRS} ${Protobuf_LIBRARIES} 也无法打印出来这2个变量。
+此时需要修改：
+cd /home/allen/aarch64-depends/protobuf-3.6.1/lib/cmake/protobuf
+vim protobuf-config.cmake
+#if ( protobuf_MODULE_COMPATIABLE)
+include("${CMAKE_CURRENT_LIST_DIR}/protobuf-module.cmake")
+#endif()
+
+9。 继续编译还是会报错：
+/home/allen/aarch64-depends/protobuf-3.5.1/bin/protoc: 2: /home/allen/aarch64-depends/protobuf-3.5.1/bin/protoc: /home/allen/aarch64-depends/protobuf-3.5.1/bin/protoc: 2: /home/allen/aarch64-depends/protobuf-3.5.1/bin/protoc: /home/allen/aarch64-depends/protobuf-3.5.1/bin/protoc: 2: /home/allen/aarch64-depends/protobuf-3.5.1/bin/protoc: /home/allen/aarch64-depends/protobuf-3.5.1/bin/protoc: 2: /home/allen/aarch64-depends/protobuf-3.5.1/bin/protoc: /home/allen/aarch64-depends/protobuf-3.5.1/bin/protoc: 2: /home/allen/aarch64-depends/protobuf-3.5.1/bin/protoc: Syntax error: ")" unexpected
+cyber/proto/CMakeFiles/cyber_proto.dir/build.make:75: recipe for target 'cyber/proto/component_conf.pb.h' failed
+make[2]: *** [cyber/proto/component_conf.pb.h] Error 2
+make[2]: *** Waiting for unfinished jobs....
+Syntax error: ")" unexpected
+cyber/proto/CMakeFiles/cyber_proto.dir/build.make:82: recipe for target 'cyber/proto/cyber_conf.pb.h' failed
+make[2]: *** [cyber/proto/cyber_conf.pb.h] Error 2
+Syntax error: ")" unexpected
+cyber/examples/proto/CMakeFiles/cyber_example_proto.dir/build.make:61: recipe for target 'cyber/examples/proto/examples.pb.h' failed
+make[2]: *** [cyber/examples/proto/examples.pb.h] Error 2
+CMakeFiles/Makefile2:3025: recipe for target 'cyber/examples/proto/CMakeFiles/cyber_example_proto.dir/all' failed
+
+原因：编译cyber的过程中需要用protoc文件来生成xx.pb.h文件，但是引用的确实aarch64版本的protoc。
+解决办法：cd   /home/allen/aarch64-depends/protobuf-3.6.1/bin && mv protoc protoc-arm
+然后将x86版本的protoc复制到该目录中：
+cp /home/allen/protobuf-3.6.1-x86/cmake/build/protoc /home/allen/aarch64-depends/protobuf-3.6.1/bin
+
+然后 继续编译大功告成！！！！
 
 
 

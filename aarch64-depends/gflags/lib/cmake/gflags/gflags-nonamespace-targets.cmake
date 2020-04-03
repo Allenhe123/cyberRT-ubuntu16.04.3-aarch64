@@ -16,7 +16,7 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set(_targetsDefined)
 set(_targetsNotDefined)
 set(_expectedTargets)
-foreach(_expectedTarget gflags_static gflags_nothreads_static)
+foreach(_expectedTarget gflags_shared gflags_nothreads_shared)
   list(APPEND _expectedTargets ${_expectedTarget})
   if(NOT TARGET ${_expectedTarget})
     list(APPEND _targetsNotDefined ${_expectedTarget})
@@ -44,19 +44,19 @@ get_filename_component(_IMPORT_PREFIX "${_IMPORT_PREFIX}" PATH)
 get_filename_component(_IMPORT_PREFIX "${_IMPORT_PREFIX}" PATH)
 get_filename_component(_IMPORT_PREFIX "${_IMPORT_PREFIX}" PATH)
 
-# Create imported target gflags_static
-add_library(gflags_static STATIC IMPORTED)
+# Create imported target gflags_shared
+add_library(gflags_shared SHARED IMPORTED)
 
-set_target_properties(gflags_static PROPERTIES
+set_target_properties(gflags_shared PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "GFLAGS_IS_A_DLL=0"
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
   INTERFACE_LINK_LIBRARIES "-lpthread"
 )
 
-# Create imported target gflags_nothreads_static
-add_library(gflags_nothreads_static STATIC IMPORTED)
+# Create imported target gflags_nothreads_shared
+add_library(gflags_nothreads_shared SHARED IMPORTED)
 
-set_target_properties(gflags_nothreads_static PROPERTIES
+set_target_properties(gflags_nothreads_shared PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "GFLAGS_IS_A_DLL=0"
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
 )
